@@ -1,11 +1,12 @@
 const stepList = document.querySelector("#installSteps");
 const loaderTabs = document.querySelector(".loader-tabs");
 const loaderButtons = [...document.querySelectorAll("[data-loader]")];
-const screenshotSources = {
-  "menu-screen": "assets/mainmenu.png",
-  "hud-screen": "assets/ingame.png",
-  "credits-screen": "assets/credits.png"
-};
+// Screenshot carousel slides — add new preview images here, one entry per slide.
+const screenshots = [
+  { src: "assets/mainmenu.png", caption: "Main Menu" },
+  { src: "assets/ingame.png", caption: "In-Game HUD" },
+  { src: "assets/credits.png", caption: "Credits Screen" }
+];
 let isInstallVisible = false;
 let hasQueuedStepReveal = false;
 let hasPlayedStepReveal = false;
@@ -253,13 +254,25 @@ function watchStepVisibility() {
   observer.observe(stepList);
 }
 
-function getScreenshotSource(screen) {
-  const sourceClass = Object.keys(screenshotSources).find((className) => screen.classList.contains(className));
-  return sourceClass ? screenshotSources[sourceClass] : "";
-}
-
-function getScreenshotCaption(screen) {
-  return screen.closest("figure")?.querySelector("figcaption")?.textContent.trim() || "Quartz screenshot";
+function setupScrollReveals() {
+  const nodes = [...document.querySelectorAll("[data-reveal]")];
+  if (!nodes.length) return;
+  document.body.classList.add("reveal-ready");
+  if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    nodes.forEach((node) => node.classList.add("is-revealed"));
+    return;
+  }
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-revealed");
+        observer.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.2, rootMargin: "0px 0px -40px" }
+  );
+  nodes.forEach((node) => observer.observe(node));
 }
 
 function createScreenshotLightbox() {
@@ -289,18 +302,19 @@ function createScreenshotLightbox() {
     if (event.target === root) closeScreenshotLightbox();
   });
   closeButton.addEventListener("click", closeScreenshotLightbox);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeScreenshotLightbox();
+  });
   return { root, closeButton, image, caption };
 }
 
-function openScreenshotLightbox(screen) {
-  const src = getScreenshotSource(screen);
-  if (!src) return;
-  const caption = getScreenshotCaption(screen);
+function openScreenshotLightbox(shot, trigger) {
+  if (!shot || !shot.src) return;
   if (!lightboxParts) lightboxParts = createScreenshotLightbox();
-  lastLightboxTrigger = screen;
-  lightboxParts.image.src = src;
-  lightboxParts.image.alt = caption;
-  lightboxParts.caption.textContent = caption;
+  lastLightboxTrigger = trigger || null;
+  lightboxParts.image.src = shot.src;
+  lightboxParts.image.alt = shot.caption;
+  lightboxParts.caption.textContent = shot.caption;
   lightboxParts.root.hidden = false;
   document.body.classList.add("has-lightbox");
   lightboxParts.closeButton.focus();
@@ -313,23 +327,160 @@ function closeScreenshotLightbox() {
   lastLightboxTrigger?.focus();
 }
 
-function setupScreenshotLightbox() {
-  document.querySelectorAll(".mock-screen").forEach((screen) => {
-    const caption = getScreenshotCaption(screen);
-    screen.tabIndex = 0;
-    screen.setAttribute("role", "button");
-    screen.setAttribute("aria-label", `View ${caption} fullscreen`);
-    screen.addEventListener("click", () => openScreenshotLightbox(screen));
-    screen.addEventListener("keydown", (event) => {
+function setupScreenshotCarousel() {
+  const track = document.querySelector("#carouselTrack");
+  const dotsBox = document.querySelector("#carouselDots");
+  if (!track || !dotsBox) return;
+
+  const slides = screenshots.map((shot) => {
+    const slide = document.createElement("figure");
+    const image = document.createElement("img");
+    const caption = document.createElement("figcaption");
+    slide.className = "carousel-slide";
+    image.src = shot.src;
+    image.alt = shot.caption;
+    image.loading = "lazy";
+    image.tabIndex = 0;
+    image.setAttribute("role", "button");
+    image.setAttribute("aria-label", `View ${shot.caption} fullscreen`);
+    image.addEventListener("click", () => openScreenshotLightbox(shot, image));
+    image.addEventListener("keydown", (event) => {
       if (event.key !== "Enter" && event.key !== " ") return;
       event.preventDefault();
-      openScreenshotLightbox(screen);
+      openScreenshotLightbox(shot, image);
     });
+    caption.textContent = shot.caption;
+    slide.append(image, caption);
+    return slide;
+  });
+  track.replaceChildren(...slides);
+
+  let activeIndex = 0;
+  let animationFrame = 0;
+  let fadeTimer = 0;
+
+  function slideStep() {
+    return slides.length > 1 ? slides[1].offsetLeft - slides[0].offsetLeft : track.clientWidth;
+  }
+
+  function markActive(index) {
+    activeIndex = index;
+    dots.forEach((dot, dotIndex) => {
+      if (dotIndex === index) dot.setAttribute("aria-current", "true");
+      else dot.removeAttribute("aria-current");
+    });
+  }
+
+  function cancelSlideAnimation() {
+    if (animationFrame) {
+      cancelAnimationFrame(animationFrame);
+      animationFrame = 0;
+      track.style.scrollSnapType = "";
+    }
+    if (fadeTimer) {
+      clearTimeout(fadeTimer);
+      fadeTimer = 0;
+      track.style.transition = "";
+      track.style.opacity = "";
+    }
+  }
+
+  // Reduced motion: slide changes must not move, but a hard cut is jarring
+  // too — fade out, reposition while invisible, fade back in.
+  function crossfadeTrackTo(left) {
+    track.style.transition = "opacity 150ms ease";
+    track.style.opacity = "0";
+    fadeTimer = window.setTimeout(() => {
+      track.scrollTo({ left });
+      track.style.opacity = "1";
+      fadeTimer = window.setTimeout(() => {
+        track.style.transition = "";
+        track.style.opacity = "";
+        fadeTimer = 0;
+      }, 180);
+    }, 170);
+  }
+
+  // Mandatory scroll-snap overrides smooth programmatic scrolling in several
+  // engines (the snap wins and the track jumps), so slide changes animate
+  // scrollLeft by hand with snapping suspended for the duration.
+  function animateTrackTo(left) {
+    cancelSlideAnimation();
+    const from = track.scrollLeft;
+    const change = left - from;
+    if (Math.abs(change) < 1) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      crossfadeTrackTo(left);
+      return;
+    }
+    const duration = 420;
+    const start = performance.now();
+    track.style.scrollSnapType = "none";
+    const step = (now) => {
+      const progress = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - progress, 4);
+      track.scrollLeft = from + change * eased;
+      if (progress < 1) {
+        animationFrame = requestAnimationFrame(step);
+      } else {
+        animationFrame = 0;
+        track.style.scrollSnapType = "";
+      }
+    };
+    animationFrame = requestAnimationFrame(step);
+  }
+
+  function scrollToSlide(index) {
+    const target = (index + slides.length) % slides.length;
+    markActive(target);
+    animateTrackTo(target * slideStep());
+  }
+
+  ["wheel", "touchstart", "pointerdown"].forEach((type) => {
+    track.addEventListener(type, cancelSlideAnimation, { passive: true });
   });
 
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeScreenshotLightbox();
+  const dots = screenshots.map((shot, index) => {
+    const dot = document.createElement("button");
+    dot.type = "button";
+    dot.setAttribute("aria-label", `Go to screenshot ${index + 1}: ${shot.caption}`);
+    dot.addEventListener("click", () => scrollToSlide(index));
+    return dot;
   });
+  dotsBox.replaceChildren(...dots);
+
+  document.querySelectorAll(".carousel-arrow").forEach((arrow) => {
+    arrow.addEventListener("click", () => scrollToSlide(activeIndex + Number(arrow.dataset.dir || 1)));
+  });
+
+  track.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      scrollToSlide(activeIndex - 1);
+    }
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      scrollToSlide(activeIndex + 1);
+    }
+  });
+
+  let scrollTicking = false;
+  track.addEventListener(
+    "scroll",
+    () => {
+      if (scrollTicking) return;
+      scrollTicking = true;
+      requestAnimationFrame(() => {
+        scrollTicking = false;
+        if (animationFrame) return;
+        const index = Math.max(0, Math.min(slides.length - 1, Math.round(track.scrollLeft / slideStep())));
+        markActive(index);
+      });
+    },
+    { passive: true }
+  );
+
+  markActive(0);
 }
 
 if (stepList) {
@@ -348,4 +499,5 @@ if (stepList) {
 }
 
 openExternalLinksInNewTabs();
-setupScreenshotLightbox();
+setupScreenshotCarousel();
+setupScrollReveals();

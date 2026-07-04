@@ -42,7 +42,7 @@
 
     <section class="install section-pad" id="install">
       <div class="install-layout">
-        <div>
+        <div data-reveal>
           <div class="section-heading">
             <p>Get Started</p>
             <h2>Install in under a minute.</h2>
@@ -58,28 +58,26 @@
     </section>
 
     <section class="screenshots section-pad" id="screenshots">
-      <div class="section-heading">
+      <div class="section-heading" data-reveal>
         <p>Screenshots</p>
         <h2>See it in action.</h2>
       </div>
-      <div class="shot-stage" aria-label="Quartz screenshots">
-        <figure class="shot-card shot-left">
-          <div class="mock-screen menu-screen"><span>Quartz Menu</span></div>
-          <figcaption>Main Menu</figcaption>
-        </figure>
-        <figure class="shot-card shot-center">
-          <div class="mock-screen hud-screen"><span>96.42%</span></div>
-          <figcaption>In-Game HUD</figcaption>
-        </figure>
-        <figure class="shot-card shot-right">
-          <div class="mock-screen credits-screen"><span>Community</span></div>
-          <figcaption>Credits Screen</figcaption>
-        </figure>
+      <div class="shot-carousel" data-reveal="fade" style="--reveal-delay: 90ms" aria-roledescription="carousel" aria-label="Quartz screenshots">
+        <div class="carousel-track" id="carouselTrack" tabindex="0"></div>
+        <div class="carousel-controls">
+          <button class="carousel-arrow" type="button" data-dir="-1" aria-label="Previous screenshot">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg>
+          </button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-arrow" type="button" data-dir="1" aria-label="Next screenshot">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg>
+          </button>
+        </div>
       </div>
     </section>
 
     <section class="credits section-pad" id="credits">
-      <div class="credits-box">
+      <div class="credits-box" data-reveal>
         <h2>Made by koren and sbrothers7.</h2>
         <p>psst, sbrothers doesn't do shit. (joking)</p>
       </div>

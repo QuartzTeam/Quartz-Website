@@ -1,0 +1,21 @@
+src/public/index.html
+  s_2e717b5f487c4e::t_74cb2286af73c2 1-106
+src/server.js
+  s_2e717b5f487c4e::t_c655e12b34323a 1-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "782d0532dec20ff00345c0154bd342bd76ee90d2",
+  "prompts": {},
+  "sessions": {
+    "s_2e717b5f487c4e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f2a95-74d8-7743-8d93-aa1c19f36601",
+        "model": "gpt-5.5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

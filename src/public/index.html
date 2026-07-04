@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,9 +10,12 @@
   <link rel="apple-touch-icon" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body data-page="home">
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Quartz home">
@@ -21,10 +25,12 @@
     <nav class="nav-links" aria-label="Primary navigation">
       <a href="#install">Install</a>
       <a href="#screenshots">Screenshots</a>
+      <a href="#lite">Quartz Lite</a>
       <a href="#credits">Credits</a>
       <a href="docs/" data-docs-link>Docs</a>
     </nav>
-    <a class="header-download" href="https://github.com/QuartzTeam/Quartz/releases" target="_blank" rel="noopener noreferrer">Download</a>
+    <a class="header-download" href="https://github.com/QuartzTeam/Quartz/releases" target="_blank"
+      rel="noopener noreferrer">Download</a>
   </header>
 
   <main id="top" data-page="home">
@@ -33,8 +39,10 @@
         <div class="hero-gem" aria-hidden="true"></div>
         <h1>The all-in-one mod for A Dance of Fire and Ice.</h1>
         <div class="hero-actions">
-          <a class="button primary" href="https://github.com/QuartzTeam/Quartz/releases" target="_blank" rel="noopener noreferrer">Download Quartz</a>
-          <a class="button secondary" href="https://github.com/QuartzTeam/Quartz" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          <a class="button primary" href="https://github.com/QuartzTeam/Quartz/releases" target="_blank"
+            rel="noopener noreferrer">Download Quartz</a>
+          <a class="button secondary" href="https://github.com/QuartzTeam/Quartz" target="_blank"
+            rel="noopener noreferrer">View on GitHub</a>
         </div>
         <p class="hero-note">Free and open source. Works with MelonLoader or UnityModManager.</p>
       </div>
@@ -46,11 +54,14 @@
           <div class="section-heading">
             <p>Get Started</p>
             <h2>Install in under a minute.</h2>
-            <span>Quartz.zip is the recommended MelonLoader build. QuartzUmm.zip is for existing UMM installs. Both use the same in-game menu.</span>
+            <span>Quartz.zip is the recommended MelonLoader build. QuartzUmm.zip is for existing UMM installs. Both use
+              the same in-game menu.</span>
           </div>
           <div class="loader-tabs" role="tablist" aria-label="Install loader">
-            <button class="active" type="button" role="tab" aria-selected="true" data-loader="melonloader">MelonLoader</button>
-            <button type="button" role="tab" aria-selected="false" data-loader="unitymodmanager">UnityModManager</button>
+            <button class="active" type="button" role="tab" aria-selected="true"
+              data-loader="melonloader">MelonLoader</button>
+            <button type="button" role="tab" aria-selected="false"
+              data-loader="unitymodmanager">UnityModManager</button>
           </div>
         </div>
         <ol class="install-steps" id="installSteps" aria-live="polite"></ol>
@@ -62,16 +73,53 @@
         <p>Screenshots</p>
         <h2>See it in action.</h2>
       </div>
-      <div class="shot-carousel" data-reveal="fade" style="--reveal-delay: 90ms" aria-roledescription="carousel" aria-label="Quartz screenshots">
+      <div class="shot-carousel" data-reveal="fade" style="--reveal-delay: 90ms" aria-roledescription="carousel"
+        aria-label="Quartz screenshots">
         <div class="carousel-track" id="carouselTrack" tabindex="0"></div>
         <div class="carousel-controls">
           <button class="carousel-arrow" type="button" data-dir="-1" aria-label="Previous screenshot">
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M10 3 5 8l5 5" />
+            </svg>
           </button>
           <div class="carousel-dots" id="carouselDots"></div>
           <button class="carousel-arrow" type="button" data-dir="1" aria-label="Next screenshot">
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="m6 3 5 5-5 5" />
+            </svg>
           </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="lite section-pad" id="lite">
+      <div class="lite-layout">
+        <div data-reveal>
+          <div class="section-heading">
+            <p>Quartz Lite</p>
+            <h2>Too many settings? Meet Bismuth.</h2>
+            <span>Bismuth is the lite version of Quartz: the overlays and QoL essentials in one lightweight mod, with a
+              minimalist & polished design philosophy.</span>
+          </div>
+          <div class="lite-actions">
+            <a class="button primary" href="https://github.com/QuartzTeam/Bismuth/releases" target="_blank"
+              rel="noopener noreferrer">Download Bismuth</a>
+            <a class="button secondary" href="https://github.com/QuartzTeam/Bismuth" target="_blank"
+              rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </div>
+        <div class="lite-card" data-reveal style="--reveal-delay: 90ms">
+          <ul class="lite-features">
+            <li>Configurable stats overlays — progress, accuracy, BPM, judgements, combo, FPS</li>
+            <li>Customizable key viewer with key rain and press counts</li>
+            <li>Custom fonts for the whole game</li>
+            <li>Key limiter and chatter blocker</li>
+            <li>Game UI editor and hide-UI toggles</li>
+          </ul>
+          <p class="lite-note"><strong>Note</strong>Bismuth supports UnityModManager only. On MelonLoader, install the
+            UMMCompat plugin and put Bismuth under <code>UMMMods/</code>.</p>
         </div>
       </div>
     </section>
@@ -101,4 +149,5 @@
 
   <script src="app.js" defer></script>
 </body>
+
 </html>

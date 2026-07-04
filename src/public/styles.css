@@ -418,6 +418,77 @@ body.reveal-ready [data-reveal].is-revealed {
 @keyframes step-dot-fill { 0% { opacity: 0; background: #d3c6b8; color: transparent; transform: scale(0.74); } 58% { opacity: 1; background: var(--accent-dark); color: #fff; transform: scale(1.08); } 100% { opacity: 1; background: var(--accent-dark); color: #fff; transform: scale(1); } }
 @keyframes step-copy-wipe { from { opacity: 0; clip-path: inset(0 100% 0 0); transform: translateX(-10px); } to { opacity: 1; clip-path: inset(0 0 0 0); transform: translateX(0); } }
 @keyframes step-text-swap { from { opacity: 0; clip-path: inset(0 100% 0 0); transform: translateX(-8px); } to { opacity: 1; clip-path: inset(0 0 0 0); transform: translateX(0); } }
+.lite {
+  background: var(--wash);
+  border-bottom: 1px solid var(--line);
+}
+.lite-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.lite-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 32px;
+}
+.lite-card {
+  padding: 30px 32px;
+  border: 1px solid #d8d0c4;
+  border-radius: var(--radius);
+  background: #fff;
+}
+.lite-features {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lite-features li {
+  position: relative;
+  padding-left: 26px;
+  color: var(--ink);
+  font-size: 15.5px;
+  line-height: 1.55;
+}
+.lite-features li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.lite-note {
+  margin: 24px 0 0;
+  padding: 14px 16px;
+  border-left: 3px solid var(--accent);
+  background: var(--wash);
+  color: var(--ink);
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+.lite-note strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--accent-dark);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 800;
+}
+.lite-note code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #eee5db;
+  font: 800 0.9em "Space Grotesk", sans-serif;
+}
 .credits-box {
   max-width: 760px;
   margin: 0 auto;
@@ -504,7 +575,8 @@ body.has-lightbox { overflow: hidden; }
     font-size: 32px;
     white-space: normal;
   }
-  .install-layout {
+  .install-layout,
+  .lite-layout {
     grid-template-columns: 1fr;
   }
   .carousel-track { gap: 16px; }

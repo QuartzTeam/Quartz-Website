@@ -75,3 +75,20 @@ nav:
   - Features:
       - features/index.md
       - Key Viewer: features/key-viewer.md
+      - Combo: features/combo.md
+      - Judgement: features/judgement.md
+      - Progress Bar: features/progress-bar.md
+      - Song Title: features/song-title.md
+      - Panels: features/panels.md
+      - Editor: features/editor.md
+      - Planet Colors: features/planet-colors.md
+      - Nostalgia: features/nostalgia.md
+      - Effect Remover: features/effect-remover.md
+      - UI Hider: features/ui-hider.md
+      - Otto Icon: features/otto-icon.md
+      - Tweaks: features/tweaks.md
+      - Optimizer: features/optimizer.md
+      - Key Limiter: features/key-limiter.md
+      - Restriction: features/restriction.md
+      - Chatter Blocker: features/chatter-blocker.md
+      - Auto Deafen: features/auto-deafen.md

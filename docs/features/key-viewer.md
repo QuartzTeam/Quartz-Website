@@ -4,7 +4,7 @@ An on-screen key grid with per-key press counters, KPS (keys per second), and a 
 
 ## Where to find it
 
-Open the Quartz menu in-game and switch to the **Key Viewer** tab.
+Open the Quartz menu in-game, go to the **Overlay** tab, and open the **Key Viewer** section.
 
 ## Highlights
 
@@ -26,4 +26,4 @@ Quartz can import DM Note presets directly:
 
 ## Key Limiter sync
 
-**Sync Limiter** overwrites the [Key Limiter](index.md#input-restrictions)'s allowed keys with the keys shown in the viewer, so the two always agree.
+**Sync Keys to Key Limiter** overwrites [Key Limiter](key-limiter.md)'s allowed keys with the keys shown in the viewer, and keeps them matched when you rebind keys or switch styles.

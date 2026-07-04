@@ -17,3 +17,6 @@ Open the Quartz menu in-game, go to the **Overlay** tab, and open the **Panels**
 
 !!! tip
     Drag panels into place with the **Reorganize** button at the top of the Overlay tab, same as any other overlay.
+
+!!! note
+    Past 10 panels in one place, Quartz shows a reminder that having that many can affect performance. It's just a heads-up — you can keep adding panels past it.

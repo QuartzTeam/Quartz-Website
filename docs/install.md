@@ -37,3 +37,6 @@ Quartz ships two zips per release — pick the one that matches your loader. If 
 ## Updating
 
 Download the newest release and install it the same way you installed Quartz the first time. If the game keeps loading the old version, restart Steam and confirm only one Quartz package is installed.
+
+!!! note
+    Quartz's in-app updater checks a downloaded update against its published checksum before installing, so a corrupted or interrupted download can't be applied. If it reports a verification failure, just try the update again.

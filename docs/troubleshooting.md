@@ -14,6 +14,10 @@ Open the in-game Quartz menu with the mod's keybind (default: `ALT + K`). For UM
 
 Restart Steam and confirm only one Quartz package is installed. Remove any leftover `Koren.dll` from older installs — Quartz migrates old Koren data automatically, but the old DLL itself should not stay loaded.
 
+## The in-app updater reports a verification failure
+
+Quartz checks a downloaded update's checksum before installing it, so a corrupted or interrupted download won't be applied. Just try updating again; if it keeps failing, download the release manually from the releases page below and install it the normal way.
+
 ## A download link is blocked
 
 Use the latest release page directly:

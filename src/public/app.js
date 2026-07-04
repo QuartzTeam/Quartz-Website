@@ -53,7 +53,7 @@ const installSteps = {
     { type: "step", text: "Done!" }
   ],
   unitymodmanager: [
-    { type: "step", marker: "0", text: "First make sure you have UnityModManager set up for ADoFaI." },
+    { type: "step", marker: "0", text: "First make sure you have UnityModManager set up for ADOFAI." },
     {
       type: "step",
       parts: [

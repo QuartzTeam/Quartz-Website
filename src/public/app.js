@@ -28,15 +28,8 @@ window.addEventListener("pageshow", () => {
 const installSteps = {
   melonloader: [
     {
-      type: "note",
-      parts: [
-        { text: "If on Mac, there is an " },
-        { text: "auto installer", href: "https://github.com/sbrothers7/UMMInstall/releases/latest" },
-        { text: " for your convenience." }
-      ]
-    },
-    {
       type: "step",
+      marker: "0",
       parts: [
         { text: "Download " },
         { text: "modlist.org app", href: "https://github.com/modlist-org/modlist_org_app/releases/latest" },
@@ -45,27 +38,21 @@ const installSteps = {
         { text: "." }
       ]
     },
+    {
+      type: "note",
+      parts: [
+        { text: "If on Mac, there is an " },
+        { text: "auto installer", href: "https://github.com/sbrothers7/UMMInstall/releases/latest" },
+        { text: " for your convenience." }
+      ]
+    },
     { type: "step", text: "If not installed MelonLoader yet, install it using the modlist.org app." },
     {
       type: "note",
       text: "If on Mac, In the modlist.org app, press \"Copy Native Launch Options\" in the \"Installed\" tab and paste it into your Steam launch arguments."
     },
     { type: "step", text: "Press \"Install Mod From File\" then select the zip (Quartz.zip)." },
-    { type: "step", text: "Done!" },
-    {
-      type: "note",
-      parts: [
-        { text: "Manual install: already have MelonLoader? Download " },
-        { text: "Quartz.zip", code: true },
-        { text: " from " },
-        { text: "releases", href: "https://github.com/QuartzTeam/Quartz/releases/latest" },
-        { text: " and extract it into your ADOFAI folder." }
-      ]
-    },
-    {
-      type: "warning",
-      text: "On Mac, extracting replaces the entire folder instead of just adding the files. Drag the files in manually."
-    }
+    { type: "step", text: "Done!" }
   ],
   unitymodmanager: [
     { type: "step", marker: "0", text: "First make sure you have UnityModManager set up for ADOFAI." },
@@ -89,11 +76,11 @@ const installSteps = {
         { text: " folder into your UMM mods directory manually." }
       ]
     },
-    { type: "step", text: "Done! Open the in-game menu with the mod's keybind (settings live there, not in the UMM panel)." },
     {
       type: "warning",
       text: "On Mac, extracting replaces the entire folder instead of just adding the files. Drag the files in manually."
-    }
+    },
+    { type: "step", text: "Done! Open the in-game menu with the mod's keybind (settings live there, not in the UMM panel)." }
   ]
 };
 

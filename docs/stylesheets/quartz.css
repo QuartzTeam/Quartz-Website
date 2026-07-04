@@ -114,8 +114,18 @@
   color: var(--md-default-fg-color--light);
 }
 
-/* No footer — Discord and GitHub live in the header instead. */
+/* Footer holds only the prev/next links — Discord and GitHub live in the
+   header, so the meta bar stays hidden. */
 .md-footer {
+  --md-footer-bg-color: var(--md-default-bg-color);
+  --md-footer-bg-color--dark: var(--md-default-bg-color);
+  --md-footer-fg-color: var(--md-default-fg-color);
+  --md-footer-fg-color--light: var(--md-default-fg-color--light);
+  --md-footer-fg-color--lighter: var(--md-default-fg-color--lighter);
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-footer-meta {
   display: none;
 }
 

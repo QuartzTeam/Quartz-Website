@@ -1,0 +1,60 @@
+docs/features/auto-deafen.md
+  s_8e1d5ff6ffc842::t_e98b18ca80297a 14-15,18
+  s_8e1d5ff6ffc842::t_31e6a958ecbeda 1-13,16-17
+docs/features/progress-bar.md
+  s_8e1d5ff6ffc842::t_0c2d325b4b4110 1-14
+docs/features/ui-hider.md
+  s_8e1d5ff6ffc842::t_48b59ba8cfdaac 1-19
+docs/features/tweaks.md
+  s_8e1d5ff6ffc842::t_b0c47e6a92f6f9 1-21
+docs/features/key-viewer.md
+  s_8e1d5ff6ffc842::t_f0963f77296380 7
+  s_8e1d5ff6ffc842::t_801172599e085f 29
+docs/features/optimizer.md
+  s_8e1d5ff6ffc842::t_bdedb383c7e14e 1-17
+docs/features/chatter-blocker.md
+  s_8e1d5ff6ffc842::t_3284f15f805f4a 1-11
+docs/features/song-title.md
+  s_8e1d5ff6ffc842::t_2b48718682bd4a 1-16
+docs/features/effect-remover.md
+  s_8e1d5ff6ffc842::t_359c6e11e39b0e 1-21
+docs/features/restriction.md
+  s_8e1d5ff6ffc842::t_80476e26019698 1-28
+docs/features/key-limiter.md
+  s_8e1d5ff6ffc842::t_e5b49e2ef1b34f 1-15
+docs/features/combo.md
+  s_8e1d5ff6ffc842::t_85e4092a4b1d47 17
+  s_8e1d5ff6ffc842::t_6e506684306b16 1-16,18-21
+docs/features/panels.md
+  s_8e1d5ff6ffc842::t_c9af629b1ee260 1-19
+docs/features/nostalgia.md
+  s_8e1d5ff6ffc842::t_d3748b6fb33639 1-25
+docs/features/otto-icon.md
+  s_8e1d5ff6ffc842::t_105fe32690d79c 1-12
+docs/features/judgement.md
+  s_8e1d5ff6ffc842::t_3d2edad68a47bd 1-16
+docs/features/editor.md
+  s_8e1d5ff6ffc842::t_2310da9e9811c1 1-18
+docs/features/planet-colors.md
+  s_8e1d5ff6ffc842::t_5310f0775421cf 1-13
+docs/features/index.md
+  s_8e1d5ff6ffc842::t_34e57d2d865b56 7-8,12-16,22,28-34,38-39,42-44,50-51
+mkdocs.yml
+  s_8e1d5ff6ffc842::t_f43912b0fee54c 78-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3b810f49fadf2d958f5dd7f499034f7a86e7a408",
+  "prompts": {},
+  "sessions": {
+    "s_8e1d5ff6ffc842": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7495fb46-ab13-4d39-b4dc-ac7ec459dc35",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

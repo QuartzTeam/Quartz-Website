@@ -1,7 +1,0 @@
-{
-  "pages": [
-    { "id": "index", "title": "Overview", "src": "content/index.md" },
-    { "id": "install", "title": "Install", "src": "content/install.md" },
-    { "id": "troubleshooting", "title": "Troubleshooting", "src": "content/troubleshooting.md" }
-  ]
-}

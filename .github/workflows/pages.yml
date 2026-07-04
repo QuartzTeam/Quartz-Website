@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "src/public/**"
+      - "docs/**"
+      - "mkdocs.yml"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -26,10 +28,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/workflows/pages.yml
+      - name: Install Zensical
+        run: pip install zensical
       - name: Prepare static artifact
         run: |
           mkdir -p pages
           rsync -a --exclude='.*' src/public/ pages/
+          zensical build -s
+          mv site pages/docs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: pages

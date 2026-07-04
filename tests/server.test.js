@@ -37,40 +37,8 @@ test("serves static assets with correct content type", async () => {
   assert.match(response.body, /installSteps/);
 });
 
-test("serves the static documentation directory page", async () => {
-  const response = await request("/docs");
-  assert.equal(response.status, 200);
-  assert.match(response.contentType, /text\/html/);
-  assert.match(response.body, /Quartz Documentation/);
-});
-
-test("serves the static documentation page with trailing slash", async () => {
-  const response = await request("/docs/");
-  assert.equal(response.status, 200);
-  assert.match(response.contentType, /text\/html/);
-  assert.match(response.body, /data-page="docs"/);
-});
-
-test("serves the direct documentation index file", async () => {
-  const response = await request("/docs/index.html");
-  assert.equal(response.status, 200);
-  assert.match(response.contentType, /text\/html/);
-  assert.match(response.body, /docsManifestFallback/);
-});
-
-test("serves markdown documentation pages", async () => {
-  const response = await request("/docs/content/install.md");
-  assert.equal(response.status, 200);
-  assert.match(response.contentType, /text\/markdown/);
-  assert.match(response.body, /# Install/);
-});
-
-test("serves documentation manifest", async () => {
-  const response = await request("/docs/manifest.json");
-  assert.equal(response.status, 200);
-  assert.match(response.contentType, /application\/json/);
-  assert.match(response.body, /troubleshooting/);
-});
+// The documentation lives in /docs at the repo root and is built separately
+// with Zensical (see mkdocs.yml); the dev server only serves the landing page.
 
 test("blocks path traversal for static assets", () => {
   assert.equal(safeStaticPath("/../../package.json"), null);

@@ -2,3 +2,9 @@ node_modules/
 .DS_Store
 .claude-flow/
 npm-debug.log*
+
+# Zensical build output + local Python env
+site/
+pages/
+.venv/
+venv/

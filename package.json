@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
-    "build": "node --check src/server.js && node --check src/public/app.js && node --check src/public/docs/docs.js",
+    "build": "node --check src/server.js && node --check src/public/app.js",
     "test": "node --test tests/*.test.js"
   },
   "engines": {

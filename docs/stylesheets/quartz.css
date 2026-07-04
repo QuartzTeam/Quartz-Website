@@ -1,0 +1,204 @@
+/* Quartz docs theme — minimal, sharp, roomy.
+   Palette mirrors src/public/styles.css on the homepage. */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap");
+
+/* ---------- palette ---------- */
+
+:root {
+  --md-primary-fg-color: #5e4a42;        /* --accent-dark */
+  --md-primary-fg-color--light: #8f6f5f; /* --accent */
+  --md-primary-fg-color--dark: #4a3a34;
+  --md-accent-fg-color: #8f6f5f;
+  --md-accent-fg-color--transparent: rgba(143, 111, 95, 0.08);
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #faf8f3;        /* warm paper, softer than pure white */
+  --md-default-fg-color: #26221f;        /* --ink */
+  --md-default-fg-color--light: #716a61; /* --muted */
+  --md-default-fg-color--lighter: #a89580;
+  --md-default-fg-color--lightest: #e7e1d5;
+  --md-typeset-a-color: #8f6f5f;
+  --md-code-bg-color: #f0ece2;           /* --wash, a step deeper */
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 27;                          /* warm the whole dark scheme */
+  --md-typeset-a-color: #c8beb2;
+  --md-accent-fg-color: #a89580;         /* --soft */
+}
+
+/* ---------- type: sharp ---------- */
+
+.md-typeset {
+  line-height: 1.75;
+}
+
+.md-typeset a {
+  text-decoration: none;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-header__topic,
+.md-typeset .admonition-title,
+.md-typeset summary,
+.md-nav__title {
+  font-family: "Space Grotesk", Manrope, system-ui, sans-serif;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--md-default-fg-color);
+  margin-bottom: 1.2em;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin-top: 2.2em;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+}
+
+/* ---------- edges: square everything ---------- */
+
+.md-typeset code,
+.md-typeset pre > code,
+.md-typeset .admonition,
+.md-typeset details,
+.md-typeset .tabbed-set,
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card,
+.md-button,
+.md-search__form,
+.md-search__output,
+.md-nav__link {
+  border-radius: 0;
+}
+
+/* ---------- header + footer: flat hairlines, no chrome ---------- */
+
+.md-header,
+.md-tabs {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: none;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-header__button.md-logo img {
+  height: 1.4rem;
+}
+
+.md-search__form {
+  background-color: var(--md-code-bg-color);
+}
+
+.md-search__form:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-search__input::placeholder,
+.md-search__input + .md-search__icon {
+  color: var(--md-default-fg-color--light);
+}
+
+/* No footer — Discord and GitHub live in the header instead. */
+.md-footer {
+  display: none;
+}
+
+.quartz-discord svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: currentColor;
+}
+
+/* ---------- space: let it breathe ---------- */
+
+.md-grid {
+  max-width: 66rem;
+}
+
+.md-content__inner {
+  padding-top: 0.6rem;
+  padding-bottom: 3rem;
+}
+
+.md-typeset pre > code {
+  padding: 1em 1.2em;
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: none;
+  font-size: 0.72rem;
+}
+
+.md-typeset table:not([class]) th {
+  font-family: "Space Grotesk", Manrope, system-ui, sans-serif;
+  background-color: var(--md-code-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.8em 1.25em;
+}
+
+/* ---------- admonitions: monochrome, left accent, flat ---------- */
+
+.md-typeset .admonition,
+.md-typeset details {
+  /* !important beats the per-type colors (.admonition.note is more specific) */
+  border: 1px solid var(--md-default-fg-color--lightest) !important;
+  border-left: 3px solid var(--md-accent-fg-color) !important;
+  background-color: var(--md-code-bg-color) !important;
+  box-shadow: none;
+  padding: 0.4rem 1rem;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: transparent !important;
+  font-weight: 600;
+}
+
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  background-color: var(--md-accent-fg-color) !important;
+}
+
+/* ---------- cards + buttons ---------- */
+
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: none;
+  padding: 1rem 1.2rem;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: none;
+}
+
+.md-typeset .md-button {
+  padding: 0.7em 1.6em;
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.md-typeset .md-button .twemoji {
+  vertical-align: middle;
+}

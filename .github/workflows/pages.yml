@@ -39,6 +39,7 @@ jobs:
         run: |
           mkdir -p pages
           rsync -a --exclude='.*' src/public/ pages/
+          sed -i "s|href=\"styles.css\"|href=\"styles.css?v=${GITHUB_SHA::7}\"|; s|src=\"app.js\"|src=\"app.js?v=${GITHUB_SHA::7}\"|" pages/index.html
           zensical build -s
           mv site pages/docs
       - uses: actions/upload-pages-artifact@v3

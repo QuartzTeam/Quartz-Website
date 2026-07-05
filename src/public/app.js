@@ -8,6 +8,7 @@ const screenshots = [
   { src: "assets/credits.png", caption: "Credits Screen" }
 ];
 let isInstallVisible = false;
+let currentLoader = "";
 let hasQueuedStepReveal = false;
 let hasPlayedStepReveal = false;
 let textSwitchTimer = 0;
@@ -120,9 +121,11 @@ let stepHeightCleanup = null;
 function animateStepListHeight(previousHeight) {
   if (!stepList) return;
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  // Release any in-flight animation before measuring, or the lingering inline
+  // height gets measured instead of the new content's natural height.
+  if (stepHeightCleanup) stepHeightCleanup();
   const newHeight = stepList.getBoundingClientRect().height;
   if (Math.abs(newHeight - previousHeight) < 1) return;
-  if (stepHeightCleanup) stepHeightCleanup();
   let failsafeTimer = 0;
   const finish = () => {
     clearTimeout(failsafeTimer);
@@ -236,6 +239,8 @@ function setActiveLoader(loader) {
 
 function loadSteps(loader) {
   if (!stepList) return;
+  if (loader === currentLoader) return;
+  currentLoader = loader;
   setActiveLoader(loader);
   if (!hasPlayedStepReveal) stepList.classList.add("is-switching");
   renderSteps(getInstallSteps(loader));

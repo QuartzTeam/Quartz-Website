@@ -111,13 +111,58 @@
           </div>
         </div>
         <div class="lite-card" data-reveal style="--reveal-delay: 90ms">
-          <ul class="lite-features">
-            <li>Configurable stats overlays — progress, accuracy, BPM, judgements, combo, FPS</li>
-            <li>Customizable key viewer with key rain and press counts</li>
-            <li>Custom fonts for the whole game</li>
-            <li>Key limiter and chatter blocker</li>
-            <li>Game UI editor and hide-UI toggles</li>
-          </ul>
+          <table class="lite-compare">
+            <caption class="sr-only">Feature comparison between Quartz and Bismuth</caption>
+            <thead>
+              <tr>
+                <th scope="col"><span class="sr-only">Feature</span></th>
+                <th scope="col">Quartz</th>
+                <th scope="col">Bismuth</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Stats overlays &amp; key viewer</th>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Custom fonts</th>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Key limiter &amp; chatter blocker</th>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Game UI editor &amp; hide-UI toggles</th>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Editor tools</th>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+                <td class="no"><span aria-hidden="true">—</span><span class="sr-only">Not included</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Planet colors, nostalgia &amp; effect remover</th>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+                <td class="no"><span aria-hidden="true">—</span><span class="sr-only">Not included</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Restriction &amp; auto deafen</th>
+                <td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">Included</span></td>
+                <td class="no"><span aria-hidden="true">—</span><span class="sr-only">Not included</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Mod loaders</th>
+                <td>MelonLoader &amp; UMM</td>
+                <td>UMM only</td>
+              </tr>
+            </tbody>
+          </table>
           <p class="lite-note"><strong>Note</strong>Bismuth supports UnityModManager only. On MelonLoader, install the
             UMMCompat plugin and put Bismuth under <code>UMMMods/</code>.</p>
         </div>
@@ -127,7 +172,7 @@
     <section class="credits section-pad" id="credits">
       <div class="credits-box" data-reveal>
         <h2>Made by koren and sbrothers7.</h2>
-        <p>psst, sbrothers doesn't do shit. (joking)</p>
+        <p>Special thanks to BlooPrint, xnGD, TEO_72, and all the early supporters and alpha/beta testers.</p>
       </div>
     </section>
   </main>

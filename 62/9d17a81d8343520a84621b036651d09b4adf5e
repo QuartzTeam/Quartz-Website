@@ -1,0 +1,30 @@
+docs/features/addons.md
+  s_986a2ab0bd22c7::t_23b444610e7a3a 1-42
+docs/features/key-viewer.md
+  s_986a2ab0bd22c7::t_3b047aad7a906a 7
+  s_986a2ab0bd22c7::t_57505513ac076f 13
+mkdocs.yml
+  s_986a2ab0bd22c7::t_8ab1b6ab79893f 101
+docs/features/index.md
+  s_986a2ab0bd22c7::t_93516759487961 3,7
+  s_986a2ab0bd22c7::t_67325ed1063d67 53-58
+  s_986a2ab0bd22c7::t_3ca01da486cefa 35,39
+docs/features/in-game-overlay.md
+  s_986a2ab0bd22c7::t_bf3eb0258b30ef 3,7-11,15-18,21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "629d17a81d8343520a84621b036651d09b4adf5e",
+  "prompts": {},
+  "sessions": {
+    "s_986a2ab0bd22c7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3e51716f-6935-466d-badd-9bd16603ce77",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

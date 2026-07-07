@@ -1,10 +1,10 @@
 # Features
 
-Everything Quartz does lives in one in-game menu, organized into tabs. This section documents each feature area — pages are added and updated as releases ship.
+Everything Quartz does lives in one in-game menu — a sidebar of categories on the left, with each category's pages on the right. This section documents each feature area — pages are added and updated as releases ship.
 
 ## Overlays & HUD
 
-All on the **Overlay** tab, alongside a master **Enable Overlays** switch and a **Reorganize** button for dragging them into place.
+All under the **Overlay** category in the sidebar. Its **General** page holds the master **Enable Overlays** switch and the **Reorganize** button for dragging them into place.
 
 | Feature | What it does |
 |---------|--------------|
@@ -32,11 +32,11 @@ All on the **Overlay** tab, alongside a master **Enable Overlays** switch and a 
 | [Otto Icon](otto-icon.md) | Customize the editor's Otto (auto-play) icon. |
 | [Tweaks](tweaks.md) | Small gameplay, menu, and results-screen adjustments. |
 | [Optimizer](optimizer.md) | Performance toggles: garbage-collection timing, process priority, bloom, and more. |
-| [In-Game Overlay Fonts](in-game-overlay.md) | Apply your chosen font to the game's own level title, countdown, and judgement popup. |
+| [In-Game Overlay Fonts](in-game-overlay.md) | Apply your chosen font, at a per-target size, to the game's own level title, countdown, and judgement popup. |
 
 ## Input & Restrictions
 
-All on the **Gameplay** tab.
+All under the **Gameplay** category in the sidebar.
 
 | Feature | What it does |
 |---------|--------------|
@@ -50,3 +50,9 @@ All on the **Gameplay** tab.
 |---------|--------------|
 | [Auto Deafen](auto-deafen.md) | Discord-integrated automatic deafen while playing. |
 | Play Count | Tracks attempts and your best clean-progress run per level, in the background. Surface it on a [Panels](panels.md) stat panel. |
+
+## Addons
+
+| Feature | What it does |
+|---------|--------------|
+| [Addons](addons.md) | Load community-made addons that add their own settings pages, stat panels, and text tags. |

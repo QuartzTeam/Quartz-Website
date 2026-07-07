@@ -98,3 +98,4 @@ nav:
           - Chatter Blocker: features/chatter-blocker.md
       - Utility:
           - Auto Deafen: features/auto-deafen.md
+      - Addons: features/addons.md

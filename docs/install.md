@@ -2,11 +2,11 @@
 
 Quartz ships two zips per release — pick the one that matches your loader. If you don't have a loader yet, use MelonLoader.
 
-[Download the latest release :material-download:](https://github.com/QuartzTeam/Quartz/releases/latest){ .md-button .md-button--primary }
+[Download the latest release :material-download:](https://github.com/PrismMods/Quartz/releases/latest){ .md-button .md-button--primary }
 
 ## MelonLoader (recommended)
 
-1. Download the [modlist.org app](https://github.com/modlist-org/modlist_org_app/releases/latest) and [`Quartz.zip`](https://github.com/QuartzTeam/Quartz/releases/latest).
+1. Download the [modlist.org app](https://github.com/modlist-org/modlist_org_app/releases/latest) and [`Quartz.zip`](https://github.com/PrismMods/Quartz/releases/latest).
 2. If MelonLoader isn't installed yet, install it through the modlist.org app.
 3. Press **Install Mod From File** and select `Quartz.zip`.
 4. Done — start the game and open the Quartz menu.
@@ -17,7 +17,7 @@ Quartz ships two zips per release — pick the one that matches your loader. If 
 ### Manual install
 
 1. Make sure MelonLoader is installed (see above).
-2. Download `Quartz.zip` from the [releases page](https://github.com/QuartzTeam/Quartz/releases/latest).
+2. Download `Quartz.zip` from the [releases page](https://github.com/PrismMods/Quartz/releases/latest).
 3. Extract it into your A Dance of Fire and Ice folder.
 4. Done — start the game and open the Quartz menu.
 
@@ -27,7 +27,7 @@ Quartz ships two zips per release — pick the one that matches your loader. If 
 ## UnityModManager
 
 1. Make sure UnityModManager is set up for A Dance of Fire and Ice.
-2. Download `QuartzUmm.zip` from the [releases page](https://github.com/QuartzTeam/Quartz/releases/latest).
+2. Download `QuartzUmm.zip` from the [releases page](https://github.com/PrismMods/Quartz/releases/latest).
 3. In the UMM installer, use **Install mod** and pick `QuartzUmm.zip` — or extract the `Quartz` folder into your UMM mods directory manually.
 4. Open the in-game menu with the mod's keybind. Settings live there, not in the UMM panel.
 

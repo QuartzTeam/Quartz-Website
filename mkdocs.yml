@@ -2,9 +2,9 @@ site_name: Quartz Docs
 site_url: https://quartzz.xyz/docs/
 site_description: Documentation for Quartz, an all-in-one mod for A Dance of Fire and Ice.
 
-repo_url: https://github.com/QuartzTeam/Quartz
-repo_name: QuartzTeam/Quartz
-edit_uri: https://github.com/QuartzTeam/Quartz-Website/edit/main/docs/
+repo_url: https://github.com/PrismMods/Quartz
+repo_name: PrismMods/Quartz
+edit_uri: https://github.com/PrismMods/QuartzWebsite/edit/main/docs/
 
 theme:
   name: material

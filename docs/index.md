@@ -26,6 +26,6 @@ Both packages expose the same in-game Quartz menu and settings once loaded.
 
 ## Links
 
-- [Latest release](https://github.com/QuartzTeam/Quartz/releases/latest)
-- [GitHub repository](https://github.com/QuartzTeam/Quartz)
+- [Latest release](https://github.com/PrismMods/Quartz/releases/latest)
+- [GitHub repository](https://github.com/PrismMods/Quartz)
 - [Discord](https://discord.gg/mAzAghu5Xq)

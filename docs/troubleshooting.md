@@ -23,9 +23,9 @@ Quartz checks a downloaded update's checksum before installing it, so a corrupte
 Use the latest release page directly:
 
 ```text
-https://github.com/QuartzTeam/Quartz/releases/latest
+https://github.com/PrismMods/Quartz/releases/latest
 ```
 
 ## Still stuck?
 
-Ask in the [Discord](https://discord.gg/mAzAghu5Xq) or open an issue on [GitHub](https://github.com/QuartzTeam/Quartz/issues).
+Ask in the [Discord](https://discord.gg/mAzAghu5Xq) or open an issue on [GitHub](https://github.com/PrismMods/Quartz/issues).

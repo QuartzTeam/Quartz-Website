@@ -1,0 +1,25 @@
+docs/troubleshooting.md
+  s_6f35be8ded34a1::t_28e550dbd9f8b6 26,31
+docs/install.md
+  s_6f35be8ded34a1::t_28e550dbd9f8b6 5,9,20,30
+docs/index.md
+  s_6f35be8ded34a1::t_28e550dbd9f8b6 29-30
+mkdocs.yml
+  s_6f35be8ded34a1::t_28e550dbd9f8b6 5-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "63915c3fa2481d4190dcee1e639371bae5bf452f",
+  "prompts": {},
+  "sessions": {
+    "s_6f35be8ded34a1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fbd05c87-3e40-4d7b-9158-1b3e25daad7d",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

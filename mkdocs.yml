@@ -96,6 +96,7 @@ nav:
           - Key Limiter: features/key-limiter.md
           - Restriction: features/restriction.md
           - Chatter Blocker: features/chatter-blocker.md
+          - Calibration: features/calibration.md
       - Utility:
           - Auto Deafen: features/auto-deafen.md
       - Addons: features/addons.md

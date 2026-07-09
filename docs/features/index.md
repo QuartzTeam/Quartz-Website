@@ -43,6 +43,7 @@ All under the **Gameplay** category in the sidebar.
 | [Key Limiter](key-limiter.md) | Restrict which keyboard keys count as gameplay input. |
 | [Restriction](restriction.md) | Fail a run early on a judgement rule or a miss/overload cap. |
 | [Chatter Blocker](chatter-blocker.md) | Drop rapid repeat presses from a chattering key. |
+| [Calibration](calibration.md) | Tune your input offset from real play — on-death popup, decimal offset, detailed readout, and per-map timing history. |
 
 ## Utility
 

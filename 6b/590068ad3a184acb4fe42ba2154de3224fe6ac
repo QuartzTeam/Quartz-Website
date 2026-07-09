@@ -1,0 +1,23 @@
+docs/features/index.md
+  s_ba124b2f73015e::t_a43c30cb0ab38b 46
+docs/features/calibration.md
+  s_ba124b2f73015e::t_606af64bc56ca6 1-26
+mkdocs.yml
+  s_ba124b2f73015e::t_2485a089d8493e 99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6b590068ad3a184acb4fe42ba2154de3224fe6ac",
+  "prompts": {},
+  "sessions": {
+    "s_ba124b2f73015e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6f982e6c-f135-4016-ae9c-3e1f75ffa1c4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+docs/features/key-viewer.md
+  s_99fcd47098033e::t_074901ded5eaf8 17
+docs/features/effect-remover.md
+  s_99fcd47098033e::t_f3fe7b4b6cb591 19-20
+docs/features/optimizer.md
+  s_99fcd47098033e::t_15bdedceceed93 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.11",
+  "base_commit_sha": "58fe3efeeb667ef9e9c22447eb25e7734866a033",
+  "prompts": {},
+  "sessions": {
+    "s_99fcd47098033e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d809fb29-4e1f-4108-85ef-551c88739859",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

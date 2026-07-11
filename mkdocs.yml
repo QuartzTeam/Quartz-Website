@@ -99,4 +99,5 @@ nav:
           - Calibration: features/calibration.md
       - Utility:
           - Auto Deafen: features/auto-deafen.md
+      - TUF: features/tuf.md
       - Addons: features/addons.md

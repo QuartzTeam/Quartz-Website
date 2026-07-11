@@ -52,6 +52,12 @@ All under the **Gameplay** category in the sidebar.
 | [Auto Deafen](auto-deafen.md) | Discord-integrated automatic deafen while playing. |
 | Play Count | Tracks attempts and your best clean-progress run per level, in the background. Surface it on a [Panels](panels.md) stat panel. |
 
+## TUF
+
+| Feature | What it does |
+|---------|--------------|
+| [TUF](tuf.md) | Browse, download, and play TUF community levels and level packs without leaving the game. |
+
 ## Addons
 
 | Feature | What it does |

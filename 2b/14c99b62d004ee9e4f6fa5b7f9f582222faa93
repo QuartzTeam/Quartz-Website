@@ -1,0 +1,25 @@
+docs/features/optimizer.md
+  s_1c216ae4a50c19::t_5236e38d51bc57 12
+docs/features/tuf.md
+  s_1c216ae4a50c19::t_3a0232c53e949e 1-37
+docs/features/index.md
+  s_1c216ae4a50c19::t_1a3dd960909f97 55-60
+mkdocs.yml
+  s_1c216ae4a50c19::t_907e88d3113545 102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "2b14c99b62d004ee9e4f6fa5b7f9f582222faa93",
+  "prompts": {},
+  "sessions": {
+    "s_1c216ae4a50c19": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "db932714-25db-4d0b-8aa8-6b43cd020f56",
+        "model": "claude-fable-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

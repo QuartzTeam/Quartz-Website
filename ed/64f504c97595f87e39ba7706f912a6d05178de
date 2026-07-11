@@ -1,0 +1,19 @@
+docs/features/panels.md
+  s_007b59f2e1956a::t_31f033b8952f34 23-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.11",
+  "base_commit_sha": "ed64f504c97595f87e39ba7706f912a6d05178de",
+  "prompts": {},
+  "sessions": {
+    "s_007b59f2e1956a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7642cdfa-1505-492e-a51d-810edeb71ba5",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

@@ -20,3 +20,6 @@ Open the Quartz menu in-game, go to the **Overlay** tab, and open the **Panels**
 
 !!! note
     Past 10 panels in one place, Quartz shows a reminder that having that many can affect performance. It's just a heads-up — you can keep adding panels past it.
+
+!!! tip "Steadying the FPS readout"
+    The **FPS** stat refreshes every frame by default, so the number can flicker. The **FPS Update Interval** slider on the **Overlay → General** page (0–2 seconds) holds each value for the chosen time before it updates, so the counter ticks slower and stays readable. Leave it at 0 to keep updating every frame.

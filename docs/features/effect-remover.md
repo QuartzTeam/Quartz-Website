@@ -16,6 +16,7 @@ Open the Quartz menu in-game, go to the **Visuals** tab, and open the **Effect R
 
 ## Other options
 
-- **Remove All Decorations** — when off, keeps decorations that hit/miss judgement events reference; when on, removes every decoration regardless.
+- **Decoration Types** — appears once **Decoration** is on. Choose exactly what gets removed: **Planet**, **Tiles**, **Image**, **Text**, **Particles**, and **Judgement Limit (Fail Hitbox)** (decorations whose hitbox can fail your run), each toggled independently with a **Toggle All** shortcut.
+- **Remove All Decorations** — when off, keeps decorations that hit/miss judgement events reference; when on, removes every decoration of the enabled types regardless.
 - **Turn off Tutorial Background Patterns** — also hides the default background's pulsing tiled pattern (this is always removed automatically once Background removal is on).
 - **Limit 'Track Opacity' Values to 100%** — clamps opacity events that were authored above 100%.

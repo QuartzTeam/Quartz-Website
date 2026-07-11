@@ -14,7 +14,7 @@ Open the Quartz menu in-game and select **Overlay → Key Viewer** from the side
 - **Per-key styling** — give individual keys their own colors and font sizes, or copy one key's style onto all others.
 - **Per-key KPS** — each key box can show that key's presses-per-second instead of its count.
 - **Streamer mode** — hide the KPS and Total stat boxes entirely for a cleaner capture.
-- **Foot pedal** — add a separate foot-pedal element you can drag independently.
+- **Foot pedal** — add a separate foot-pedal element you can drag independently. Each foot-key count keeps its own key bindings and labels, so switching between a 2-key and an 8-key foot layout doesn't overwrite either one.
 - **Show outside gameplay** — keep the key viewer visible in menus.
 
 ## DM Note compatibility

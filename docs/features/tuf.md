@@ -4,7 +4,7 @@ Browse [The Universal Forums](https://tuforums.com/) community level database wi
 
 ## Where to find it
 
-Open the Quartz menu in-game and select **TUF** from the sidebar. It has two pages: **Levels** and **Packs**.
+Open the Quartz menu in-game and select **TUF** from the sidebar. It has three pages: **Levels**, **Packs**, and **Settings**.
 
 ## Levels
 
@@ -33,5 +33,15 @@ Community level packs, in their own sub-tab.
 
 - **Pack list** — search packs by name and sort by **Recent**, **Name**, or **Levels**. Each card shows the pack's name, level count, owner, favorites, and a preview of its first songs.
 - **Open a pack** — click a card to see its levels. Packs keep their on-site **folder tree**: folders are collapsible rows showing how many levels they hold, with their contents indented beneath.
-- **Level sorting** — inside a pack, switch between **Pack Order** (the curator's tree), **Difficulty**, and **Clears**. The non-default sorts flatten the folders into one ordered list.
+- **Level sorting** — inside a pack, switch between **Pack Order** (the curator's exact layout), **Difficulty**, and **Clears**. Sorting keeps the folder tree intact: levels reorder within each folder while the folders themselves stay in place.
 - Levels in a pack download and play exactly like the Levels page, and share the same download cache.
+
+## Settings
+
+Controls for where your downloaded levels live.
+
+- **Open Levels Folder** — opens the folder your TUF downloads are saved to in your file browser.
+- **Link to TUFHelperLite Directories** — if you also run the TUFHelperLite mod, save downloaded levels straight into its `Downloads` folder (each named `tuf-<id>`) so both mods share one level library. Quartz looks for TUFHelperLite in the game's `UMMMods` folder first, then `Mods`.
+
+!!! note
+    With the link off, downloads stay in Quartz's own `TUF/Levels` folder. Turn the link on without TUFHelperLite installed and the page says so — the setting only does something when you have that mod.

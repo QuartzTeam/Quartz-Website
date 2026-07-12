@@ -1,0 +1,21 @@
+docs/features/tuf.md
+  s_c8d7bfae5b75b3::t_046c27eb90d310 36
+  s_c8d7bfae5b75b3::t_cb739da7165419 38-47
+  s_c8d7bfae5b75b3::t_d579de6dad3f82 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "78056e1ec8d0abe555d91991d83bcd5362625996",
+  "prompts": {},
+  "sessions": {
+    "s_c8d7bfae5b75b3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "be0683c8-f8c9-454d-b590-a6cc6863bca1",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

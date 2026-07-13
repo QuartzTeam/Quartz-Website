@@ -24,6 +24,10 @@ Both packages expose the same in-game Quartz menu and settings once loaded.
 !!! note
     The UMM build does **not** use UMM's IMGUI settings panel — settings live in Quartz's own menu, opened with the mod's keybind.
 
+## Language
+
+Quartz's menu is available in English, Korean, and Simplified Chinese. Switch from the **Language** dropdown on the **Settings** page — each option is listed by its native name (English, 한국어, 简体中文), and **Reload** re-applies it. Chinese text stays readable even when the font you've picked only covers Korean or Latin, because Quartz falls back to the game's own CJK font for the characters your font is missing.
+
 ## Links
 
 - [Latest release](https://github.com/PrismMods/Quartz/releases/latest)

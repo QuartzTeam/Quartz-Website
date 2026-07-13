@@ -23,6 +23,7 @@ Quartz can import DM Note presets directly:
 
 - **Preset import** — select a DM Note preset JSON file.
 - **Custom CSS** — layer a DM Note custom CSS file over the preset. Quartz ships its own CSS engine for this, so existing DM Note skins keep working.
+- **KPS graph** — skins can declare a live line or bar graph through the CSS `--graph-*` variables. The graph spans the full time window set by `--graph-speed` (500–5000 ms).
 - **Clear Preset** — revert to Quartz's own styling.
 
 ## Key Limiter sync

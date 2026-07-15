@@ -1,0 +1,24 @@
+docs/features/key-limiter.md
+  s_3d0c3aa8a4de6f::t_b40507046d1853 16-18
+  s_3d0c3aa8a4de6f::t_0b237b76b78933 7
+docs/index.md
+  s_3d0c3aa8a4de6f::t_84b894a18f38ed 27-32
+docs/features/tuf.md
+  s_3d0c3aa8a4de6f::t_b1cba8474f911f 38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "f849510a75dba36da8704d702df80937c5d04d60",
+  "prompts": {},
+  "sessions": {
+    "s_3d0c3aa8a4de6f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b7d1395e-13b6-48df-bdd8-26fb46956805",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

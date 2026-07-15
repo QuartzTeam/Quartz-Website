@@ -20,10 +20,10 @@ Quartz checks a downloaded update's checksum before installing it, so a corrupte
 
 ## A download link is blocked
 
-Use the latest release page directly:
+Use the latest build's page directly:
 
 ```text
-https://github.com/PrismMods/Quartz/releases/latest
+https://github.com/PrismMods/Quartz/releases/tag/latest-alpha
 ```
 
 ## Still stuck?

@@ -56,7 +56,7 @@ All under the **Gameplay** category in the sidebar.
 
 | Feature | What it does |
 |---------|--------------|
-| [TUF](tuf.md) | Browse, download, and play TUF community levels and level packs without leaving the game. |
+| [TUF](tuf.md) | Browse, download, and play TUF community levels and level packs without leaving the game, and manage the library you've downloaded. |
 
 ## Addons
 

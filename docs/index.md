@@ -30,6 +30,7 @@ Quartz's menu is available in English, Korean, and Simplified Chinese. Switch fr
 
 ## Links
 
-- [Latest release](https://github.com/PrismMods/Quartz/releases/latest)
+- [Latest build](https://github.com/PrismMods/Quartz/releases/tag/latest-alpha)
+- [All releases](https://github.com/PrismMods/Quartz/releases)
 - [GitHub repository](https://github.com/PrismMods/Quartz)
 - [Discord](https://discord.gg/mAzAghu5Xq)

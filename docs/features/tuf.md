@@ -15,6 +15,7 @@ A searchable, endlessly scrolling list of TUF levels. Each card shows the level'
 - **Difficulty range** — a P→G→U gradient bar; drag the two handles to bound the difficulty range.
 - **Quantum** — an opt-in second range bar for quantum difficulties. Turn it off and it folds away entirely.
 - **Special** — a flyout with **Unranked**, **Censored**, and **Impossible** checkboxes for including special-difficulty levels.
+- **Installed** — switches the list to your own library; see [Your library](#your-library) below.
 - Scrolling near the bottom loads the next page automatically.
 
 ### Downloading and playing
@@ -22,10 +23,20 @@ A searchable, endlessly scrolling list of TUF levels. Each card shows the level'
 The button on each card walks through the whole flow: **Download** fetches and unpacks the level, then turns into **Load**, which opens the chart directly in the editor — no manual file handling. If an archive contains several playable charts, a chooser lists them so you can pick.
 
 !!! note
-    Downloads come only from TUF's own servers over HTTPS, and archives are checked during extraction — unsafe entries are rejected. Downloaded levels are cached under Quartz's own `TUF/Levels` folder, so loading a level again is instant.
+    Downloads come only from TUF's own servers over HTTPS, and archives are checked during extraction — unsafe entries are rejected. Downloaded levels are cached, so loading a level again is instant.
 
 !!! tip
     If the editor has unsaved changes, Quartz refuses to replace them — save or discard first, then load the TUF level again.
+
+Levels can be big — a heavily decorated one runs to hundreds of megabytes of backgrounds — so there's no fixed size limit. Quartz checks the free space on whichever drive your library lives on instead, and if a level genuinely won't fit it says how much it needs and how much you have before downloading anything.
+
+## Your library
+
+The **Installed** chip on the Levels page turns the list into everything you've downloaded, newest first. It reads a local index rather than the network, so it works with no connection, and search, sorting, and the difficulty filters all keep working over your own levels.
+
+- **Installed badge** — levels you already have are marked wherever they appear, including in search results and inside packs.
+- **Delete** — removes a level from disk, so clearing out maps doesn't mean digging through folders. It asks once (**Sure?**) before deleting, and anything you remove can be downloaded again later.
+- Levels downloaded before Quartz kept this index still show up. With no stored details they show just their ID (`Level #5350`) until they turn up in a search again, which fills in the song and artist.
 
 ## Packs
 
@@ -38,10 +49,17 @@ Community level packs, in their own sub-tab.
 
 ## Settings
 
-Controls for where your downloaded levels live.
+Controls for where your downloaded levels live. The page shows the folder currently in use at the top, under **Level Library**.
 
-- **Open Levels Folder** — opens the folder your TUF downloads are saved to in your file browser.
-- **Link to TUFHelperLite Directories** — if you also run the TUFHelperLite mod, save downloaded levels straight into its `Downloads` folder (each named `tuf-<id>`) so both mods share one level library. Quartz looks for TUFHelperLite in the game's `UMMMods` folder first, then `Mods`.
+- **Open Levels Folder** — opens the library actually in use in your file browser, which isn't the default one once you've moved it.
+- **Change Levels Folder** — pick an empty folder to keep levels in, on a roomier drive for instance. Levels you already downloaded are moved there for you, with progress shown on the page.
+- **Use the Default Folder** — moves everything back into Quartz's own folder inside the mod directory.
+- **Link to TUFHelperLite Directories** — if you also run the TUFHelperLite mod, save downloaded levels straight into its `Downloads` folder (each named `tuf-<id>`) so both mods share one level library. This setting only appears when TUFHelperLite is actually installed; Quartz looks for it in the game's `UMMMods` folder first, then `Mods`.
+
+!!! note "The folder has to be empty"
+    Quartz manages everything inside the levels folder, so it won't take over one that already holds your own files, and it won't accept a whole drive. If a pick is rejected, the page says why.
 
 !!! note
-    With the link off, downloads stay in Quartz's own `TUF/Levels` folder. Turn the link on without TUFHelperLite installed and the page says so — the setting only does something when you have that mod.
+    The TUFHelperLite link wins over a folder you picked: while it's on, levels install into that mod's folder and **Change Levels Folder** is declined. Turn the link off first if you want your own folder back.
+
+Moving a large library takes a moment and runs in the background, so the game keeps responding. Each level is recorded as it lands, so if a move is interrupted every level stays loadable wherever it actually ended up.

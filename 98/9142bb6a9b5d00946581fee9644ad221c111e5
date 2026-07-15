@@ -1,0 +1,64 @@
+docs/features/planet-colors.md
+  s_3d0c3aa8a4de6f::t_ab35bc0d272f7d 11
+  s_3d0c3aa8a4de6f::t_86a21e10400aa5 7
+docs/features/panels.md
+  s_3d0c3aa8a4de6f::t_b463733bbb3c30 11
+  s_3d0c3aa8a4de6f::t_7fdc7ba23ea5f9 15
+  s_3d0c3aa8a4de6f::t_a4211b0e3b3589 7
+docs/features/optimizer.md
+  s_3d0c3aa8a4de6f::t_6ced55f0b591ad 11
+  s_3d0c3aa8a4de6f::t_bfe721769d0055 7
+docs/features/judgement.md
+  s_3d0c3aa8a4de6f::t_d25f2b54c0d2d8 16
+  s_3d0c3aa8a4de6f::t_1c7a0346d13f45 7
+docs/features/auto-deafen.md
+  s_3d0c3aa8a4de6f::t_ed1888b4e8a2d3 14
+  s_3d0c3aa8a4de6f::t_592035bde33625 7
+docs/features/editor.md
+  s_3d0c3aa8a4de6f::t_c4577660f69c9d 18
+docs/features/nostalgia.md
+  s_3d0c3aa8a4de6f::t_9b569d78ffae98 7,9-10,12,14-17
+docs/features/index.md
+  s_3d0c3aa8a4de6f::t_7dd3009ad2d019 29
+docs/features/chatter-blocker.md
+  s_3d0c3aa8a4de6f::t_477986784695bc 11-14
+  s_3d0c3aa8a4de6f::t_55e7500f5760d6 7
+docs/features/combo.md
+  s_3d0c3aa8a4de6f::t_39496486b6e1fd 10
+  s_3d0c3aa8a4de6f::t_0697fe767201e3 7
+docs/features/restriction.md
+  s_3d0c3aa8a4de6f::t_9c4cac573bda71 7
+  s_3d0c3aa8a4de6f::t_e3b01c57afa3bf 19-21
+docs/index.md
+  s_3d0c3aa8a4de6f::t_b0ffaf63bb9128 35-43
+docs/features/calibration.md
+  s_3d0c3aa8a4de6f::t_c40472cb0a6761 7
+docs/features/effect-remover.md
+  s_3d0c3aa8a4de6f::t_6db5d4da8eb31a 7
+docs/features/key-limiter.md
+  s_3d0c3aa8a4de6f::t_c3bea9d6b4fcec 7
+docs/features/otto-icon.md
+  s_3d0c3aa8a4de6f::t_b619bfc9ddaa0c 7
+docs/features/progress-bar.md
+  s_3d0c3aa8a4de6f::t_eb6bdca047de8b 7
+docs/features/song-title.md
+  s_3d0c3aa8a4de6f::t_a94862436ebbda 7
+docs/features/ui-hider.md
+  s_3d0c3aa8a4de6f::t_0d8a0197c5464b 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "989142bb6a9b5d00946581fee9644ad221c111e5",
+  "prompts": {},
+  "sessions": {
+    "s_3d0c3aa8a4de6f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b7d1395e-13b6-48df-bdd8-26fb46956805",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

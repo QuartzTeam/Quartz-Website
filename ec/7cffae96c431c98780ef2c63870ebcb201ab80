@@ -1,0 +1,39 @@
+docs/features/tuf.md
+  s_3d0c3aa8a4de6f::t_0633f1bdc6e231 39
+  s_3d0c3aa8a4de6f::t_65305e57cace38 26,31-38
+  s_3d0c3aa8a4de6f::t_f17905fc0a520d 52-57,59-60,63-65
+  s_3d0c3aa8a4de6f::t_8b0ce009cd15cd 18
+  s_3d0c3aa8a4de6f::t_f9c1b5f562f9a4 40
+docs/features/index.md
+  s_3d0c3aa8a4de6f::t_be9bb664eff600 59
+docs/install.md
+  s_3d0c3aa8a4de6f::t_85a3a54e32494f 23
+  s_3d0c3aa8a4de6f::t_c2799e10729350 33
+  s_3d0c3aa8a4de6f::t_82e0d7b57646e0 42
+  s_3d0c3aa8a4de6f::t_38ecd43d8c5ef0 5-8,12
+docs/features/effect-remover.md
+  s_3d0c3aa8a4de6f::t_a00b10fecd68d5 11
+  s_3d0c3aa8a4de6f::t_70eb21c444a7a5 14-15
+docs/features/key-limiter.md
+  s_3d0c3aa8a4de6f::t_73e625cdbb1e3e 7-11
+docs/index.md
+  s_3d0c3aa8a4de6f::t_563d1f0503252b 33-34
+docs/troubleshooting.md
+  s_3d0c3aa8a4de6f::t_7fe9a86ae14d01 23,26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ec7cffae96c431c98780ef2c63870ebcb201ab80",
+  "prompts": {},
+  "sessions": {
+    "s_3d0c3aa8a4de6f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b7d1395e-13b6-48df-bdd8-26fb46956805",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

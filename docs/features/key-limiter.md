@@ -4,7 +4,7 @@ Restricts which keyboard keys count as gameplay input, so stray presses on other
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Gameplay** tab, and open the **Key Limiter** section.
+Open the Quartz menu in-game and pick **Gameplay → Key Limiter** from the sidebar.
 
 ## Highlights
 

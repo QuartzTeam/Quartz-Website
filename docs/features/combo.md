@@ -4,10 +4,10 @@ A combo counter overlay that tracks your current hit streak, with color, size, a
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Overlay** tab, and open the **Combo** section.
+Open the Quartz menu in-game and pick **Overlay → Combo** from the sidebar.
 
 !!! note
-    The **Enable Overlays** master switch at the top of the Overlay tab controls every overlay HUD — Panels, Progress Bar, Combo, and Judgement. Combo won't show if that's off.
+    The **Enable Overlays** master switch at the top of the Overlay tab controls every overlay HUD — Panels, Progress Bar, Combo, Judgement, Song Title, and Key Viewer. Combo won't show if that's off.
 
 ## Highlights
 

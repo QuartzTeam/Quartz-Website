@@ -4,7 +4,7 @@ A bar showing how far into the level you are, with a customizable fill, outline,
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Overlay** tab, and open the **Progress Bar** section.
+Open the Quartz menu in-game and pick **Overlay → Progress Bar** from the sidebar.
 
 ## Highlights
 

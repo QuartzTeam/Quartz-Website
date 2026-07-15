@@ -4,7 +4,7 @@ Strips distracting visual effects out of a level, for practicing or recording wi
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Visuals** tab, and open the **Effect Remover** section.
+Open the Quartz menu in-game and pick **Visuals → Effect Remover** from the sidebar.
 
 ## Two modes
 

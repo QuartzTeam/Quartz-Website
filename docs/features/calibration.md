@@ -4,7 +4,7 @@ Tools for dialing in your input offset in A Dance of Fire and Ice (ADOFAI), port
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Gameplay** tab, and open the **Calibration** section.
+Open the Quartz menu in-game and pick **Gameplay → Calibration** from the sidebar.
 
 ## Highlights
 

@@ -4,7 +4,7 @@ Replaces the game's own level title with a custom overlay showing the song's art
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Overlay** tab, and open the **Song Title** section.
+Open the Quartz menu in-game and pick **Overlay → Song Title** from the sidebar.
 
 ## Highlights
 

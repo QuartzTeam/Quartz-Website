@@ -4,7 +4,7 @@ Hides individual pieces of the game's own on-screen UI — difficulty icon, judg
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Visuals** tab, and open the **UI Hiding** section.
+Open the Quartz menu in-game and pick **Visuals → UI Hiding** from the sidebar.
 
 ## Two profiles
 

@@ -32,7 +32,15 @@ Menu-wide options live on the **Settings** page, separate from the individual fe
 
 ## Language
 
-Quartz's menu is available in English, Korean, and Simplified Chinese. Switch from the **Language** dropdown on the **Settings** page — each option is listed by its native name (English, 한국어, 简体中文), and **Reload** re-applies it. Chinese text stays readable even when the font you've picked only covers Korean or Latin, because Quartz falls back to the game's own CJK font for the characters your font is missing.
+Quartz's menu ships in English, Korean, and Simplified Chinese. Switch from the **Language** dropdown on the **Settings** page — each option is listed by its native name (English, 한국어, 简体中文). Chinese text stays readable even when the font you've picked only covers Korean or Latin, because Quartz falls back to the game's own CJK font for the characters your font is missing.
+
+Translations keep themselves up to date. The languages bundled with your build load immediately, so the menu never waits on the network; in the background Quartz then checks the community translation repo, [Quartz-i18n](https://github.com/PrismMods/Quartz-i18n), and quietly folds in anything newer. A corrected Korean string reaches you without waiting for a Quartz release, and a language added to that repo shows up in the dropdown on its own. **Reload** forces the check immediately and re-applies the result.
+
+!!! note
+    If the check can't run — no connection, or GitHub unreachable — the bundled translations simply stay in place and nothing changes. The zips always carry a full set, so Quartz is fully usable offline.
+
+!!! tip "Translating Quartz"
+    Translations are community-maintained in [Quartz-i18n](https://github.com/PrismMods/Quartz-i18n) rather than in the mod repo, so improving a language — or adding a new one — doesn't mean waiting on a Quartz build.
 
 ## Links
 

@@ -4,14 +4,17 @@ A large set of toggles that restore older **A Dance of Fire and Ice** behavior �
 
 ## Where to find it
 
-Nostalgia doesn't have its own tab — its toggles are grouped under a **Nostalgia** heading on four different tabs, sorted by what they affect:
+Open the Quartz menu in-game and select **Nostalgia** from the sidebar. Its toggles are split across four pages there, sorted by what they affect:
 
-| Tab | What's there |
-|-----|--------------|
-| **Editor** | Hide Difficulty, Hide No-Fail, Space 360 Tile, Weak/White Auto, legacy editor button positions and designs, legacy Korean editor text. |
-| **Visuals** | Hide Result, old speed-change indicator, legacy hit flash, judgement animation and timing, legacy twirl tile art. |
+| Page | What's there |
+|------|--------------|
 | **Gameplay** | Old Practice Mode. |
+| **Visuals** | Hide Result, old speed-change indicator, legacy hit flash, judgement animation and timing, legacy twirl tile art. |
 | **Tweaks** | Old sound effects (mute individual chimes/whooshes), legacy custom level select, disable the alpha warning and announcement sign, old lobby background. |
+| **Editor** | Hide Difficulty, Hide No-Fail, Space 360 Tile, Weak/White Auto, legacy editor button positions and designs, legacy Korean editor text. |
+
+!!! note
+    These pages are Nostalgia's own, and are separate from the main **Gameplay**, **Visuals**, **Tweaks**, and **Editor** tabs in the sidebar — none of those carry Nostalgia settings.
 
 ## Highlights
 

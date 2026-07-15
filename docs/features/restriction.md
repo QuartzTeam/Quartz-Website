@@ -4,7 +4,7 @@ Two independent ways to force a run to end early based on how you're playing, fo
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Gameplay** tab. Restriction has two sections there: **Judgement Restriction** and **Death Limit**.
+Open the Quartz menu in-game and go to **Gameplay** in the sidebar. Restriction is two pages there: **Judgement Restriction** and **Death Limit**.
 
 ## Judgement Restriction
 
@@ -15,6 +15,9 @@ Instantly fails the run the moment a hit breaks a rule you choose:
 - **X-Perfect Only** — same, but requires X-Perfect specifically (needs the XPerfect mod installed).
 - **No Too Early** — fail on a Too Early judgement.
 - **Custom Judgements** — pick exactly which judgements are allowed; anything else fails.
+
+!!! warning "Custom Judgements needs at least one judgement ticked"
+    With nothing ticked — which is how it starts — this mode fails nothing at all, rather than failing everything. Tick the judgements you want to *allow* before relying on it.
 
 The fail screen shows a message you can customize, with `{judgement}` standing in for whichever judgement broke the run.
 

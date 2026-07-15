@@ -15,4 +15,4 @@ Open the Quartz menu in-game and go to the **Editor** tab.
     - **Disable tile decorations** / **Disable planet decorations** additionally hide decorations attached to tiles or planets while BGA Mod is active. Background- and camera-anchored decorations stay visible either way.
 
 !!! note
-    [Nostalgia](nostalgia.md) adds several more editor-specific toggles (legacy button positions/designs, old auto-play behavior, and more) alongside these, also on the Editor tab.
+    [Nostalgia](nostalgia.md) adds several more editor-specific toggles (legacy button positions/designs, old auto-play behavior, and more). They live on Nostalgia's own **Editor** page, reached from the **Nostalgia** sidebar tab — not this one.

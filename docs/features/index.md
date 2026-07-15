@@ -26,7 +26,7 @@ All under the **Overlay** category in the sidebar. Its **General** page holds th
 | Feature | What it does |
 |---------|--------------|
 | [Planet Colors](planet-colors.md) | Customize planet and tail colors. |
-| [Nostalgia](nostalgia.md) | Restore older ADOFAI visuals, sounds, and editor conventions — spread across four tabs. |
+| [Nostalgia](nostalgia.md) | Restore older ADOFAI visuals, sounds, and editor conventions, from its own sidebar tab. |
 | [Effect Remover](effect-remover.md) | Strip distracting level effects, in Simple or Enhanced mode. |
 | [UI Hider](ui-hider.md) | Hide parts of the game's own UI, with separate Playing/Recording profiles. |
 | [Otto Icon](otto-icon.md) | Customize the editor's Otto (auto-play) icon. |

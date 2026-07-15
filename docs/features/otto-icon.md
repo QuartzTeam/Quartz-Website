@@ -4,7 +4,7 @@ Replaces the editor's Otto (auto-play) icon with Quartz's own icon, tinted to wh
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Visuals** tab, and open the **Otto Icon** section.
+Open the Quartz menu in-game and pick **Visuals → Otto Icon** from the sidebar.
 
 ## Highlights
 

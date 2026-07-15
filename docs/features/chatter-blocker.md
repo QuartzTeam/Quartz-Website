@@ -4,8 +4,11 @@ Drops repeated presses of the same key that arrive within a short threshold — 
 
 ## Where to find it
 
-Open the Quartz menu in-game, go to the **Gameplay** tab, and open the **Keyboard Chatter Blocker** section.
+Open the Quartz menu in-game and pick **Gameplay → Keyboard Chatter Blocker** from the sidebar.
 
 ## Highlights
 
-- **Threshold (ms)** — how close together two presses of the same key have to be before the second one is dropped. Blocked presses are logged, so you can tell it's catching real chatter rather than intentional fast taps.
+- **Threshold (ms)** — how close together two presses of the same key have to be before the second one is dropped.
+
+!!! tip "Picking a threshold"
+    Blocking happens silently, so set this by feel: start low and raise it only until the double-inputs stop. Set it too high and it will swallow intentional fast taps — a genuine trill on one key can be quicker than you'd expect.

@@ -4,11 +4,7 @@ Restricts which keyboard keys count as gameplay input, so stray presses on other
 
 ## Where to find it
 
-Open the Quartz menu in-game and go to the **Gameplay** tab. The **Menu** section sits at the top, with the **Key Limiter** section below it.
-
-## Menu
-
-- **Block game inputs while menu is open** — on by default. While the Quartz menu is up, the game underneath ignores the keyboard entirely, so you can't accidentally restart, pause, or land hits on the level behind the panel. Autoplay is exempt, so a run left playing behind the menu keeps going.
+Open the Quartz menu in-game, go to the **Gameplay** tab, and open the **Key Limiter** section.
 
 ## Highlights
 
@@ -17,3 +13,6 @@ Open the Quartz menu in-game and go to the **Gameplay** tab. The **Menu** sectio
 
 !!! note "Synced from Key Viewer"
     If [Key Viewer](key-viewer.md)'s **Sync Keys to Key Limiter** is on, the allowed-key list here is managed automatically from the keys shown in the viewer, and editing it directly is disabled until you turn that off.
+
+!!! tip "Looking for the menu input block?"
+    **Block game inputs while menu is open** stops the game reacting to *any* input while the Quartz panel is up, not just the keys restricted here, so it lives on the [Settings](../index.md#settings) page rather than in this section.

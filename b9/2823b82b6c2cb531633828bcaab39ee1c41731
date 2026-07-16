@@ -1,0 +1,23 @@
+docs/features/profiles.md
+  s_cb94c26d2d3250::t_495728ddb0773d 1-38
+mkdocs.yml
+  s_cb94c26d2d3250::t_c2859d6da68bcd 101
+docs/features/index.md
+  s_cb94c26d2d3250::t_51eae5234007a0 52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b92823b82b6c2cb531633828bcaab39ee1c41731",
+  "prompts": {},
+  "sessions": {
+    "s_cb94c26d2d3250": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "99bdcc1e-27b5-4d94-b7e7-a9ece3380c50",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

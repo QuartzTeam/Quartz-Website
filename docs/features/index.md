@@ -49,6 +49,7 @@ All under the **Gameplay** category in the sidebar.
 
 | Feature | What it does |
 |---------|--------------|
+| [Profiles](profiles.md) | Keep a profile per setup, switch between them, share them as files, and start from a ready-made preset. |
 | [Auto Deafen](auto-deafen.md) | Discord-integrated automatic deafen while playing. |
 | Play Count | Tracks attempts and your best clean-progress run per level, in the background. Surface it on a [Panels](panels.md) stat panel. |
 

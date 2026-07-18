@@ -1,0 +1,31 @@
+docs/features/key-viewer.md
+  s_65082c41801867::t_8c64d32d0407b9 3,9,11,13-24,26-30,32-34,39
+docs/features/auto-deafen.md
+  s_65082c41801867::t_f5729dd3d5fc78 13
+docs/features/effect-remover.md
+  s_65082c41801867::t_3507fe56f22fed 15
+docs/features/index.md
+  s_65082c41801867::t_7136f7fb6d8e94 11
+docs/features/optimizer.md
+  s_65082c41801867::t_909e6c96d01418 19
+docs/features/panels.md
+  s_65082c41801867::t_047a5a5593db58 25
+docs/troubleshooting.md
+  s_65082c41801867::t_1cd0a8f941d69c 29-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "9edeecc3174073ca86b8a340b0f4c356d0102f3a",
+  "prompts": {},
+  "sessions": {
+    "s_65082c41801867": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "51f32074-2ba1-425c-bc95-ea26e606581b",
+        "model": "claude-fable-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

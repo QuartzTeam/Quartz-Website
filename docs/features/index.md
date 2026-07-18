@@ -8,7 +8,7 @@ All under the **Overlay** category in the sidebar. Its **General** page holds th
 
 | Feature | What it does |
 |---------|--------------|
-| [Key Viewer](key-viewer.md) | On-screen key display with press counters, KPS, rain effects, and DM Note-compatible CSS styling. |
+| [Key Viewer](key-viewer.md) | Free-form layout editor for an on-screen key display — press counters, KPS, rain effects, and DM Note-compatible presets and CSS. |
 | [Combo](combo.md) | Combo counter overlay for gameplay. |
 | [Judgement](judgement.md) | Hit judgement count display. |
 | [Progress Bar](progress-bar.md) | Level progress overlay. |

@@ -26,6 +26,10 @@ Use the latest build's page directly:
 https://github.com/PrismMods/Quartz/releases/tag/latest-alpha
 ```
 
+## A level refuses to load because it requires mods
+
+A Dance of Fire and Ice blocks any level that lists required mods, whether or not you actually have them. With Quartz installed, a level like this loads as long as every mod it lists is present; the block only remains when one of them is genuinely missing, and the level's error still names what it needs.
+
 ## Still stuck?
 
 Ask in the [Discord](https://discord.gg/mAzAghu5Xq) or open an issue on [GitHub](https://github.com/PrismMods/Quartz/issues).

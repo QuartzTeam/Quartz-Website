@@ -8,7 +8,7 @@ Open the Quartz menu in-game and pick **Visuals → Effect Remover** from the si
 
 ## Two modes
 
-- **Simple** — turns off entire effect categories at runtime without touching the chart: **Disable Filters** (Grayscale, Arcade, etc.), **Disable Advanced Filter**, **Disable Bloom**, **Disable Flash**, **Disable Hall of Mirrors**, **Disable Screen Shake**, and **Max Tile Movements** to cap how far a single Move Track event can shove tiles.
+- **Simple** — turns off entire effect categories at runtime without touching the chart: **Disable Filters** (Grayscale, Arcade, etc.), **Disable Advanced Filter**, **Disable Bloom**, **Disable Flash**, **Disable Hall of Mirrors**, **Disable Screen Shake**, **Disable Screen Tiling/Scroll** (kaleidoscope/repeat and screen-scroll effects), and **Max Tile Movements** to cap how far a single Move Track event can shove tiles.
 - **Enhanced** — strips the selected effect *events* out of the chart itself as it loads, event type by event type: filters, camera moves/zoom, particles, hit/hold sounds, track color/position/movement/animation, planet orbit/radius/scale, frame-rate events, DLC vs non-DLC events, and more, each toggled independently (with a **Toggle All** shortcut per category). Reload the level after changing these to apply them.
 
 !!! warning "Enhanced mode blocks saving"

@@ -8,7 +8,7 @@ Open the Quartz menu in-game and select **TUF** from the sidebar. It has three p
 
 ## Levels
 
-A searchable, endlessly scrolling list of TUF levels. Each card shows the level's ID, difficulty, song, artist, creator, clears, and likes.
+A searchable, endlessly scrolling list of TUF levels. Each card shows the level's ID, difficulty, song, artist, creator, clears, and likes. With **Level Previews** on, a blurred thumbnail from the level's video sits behind each card.
 
 - **Search** — filter by song, artist, or creator. Results update as you type.
 - **Sorting** — **Recent**, **Difficulty**, **Clears**, or **Likes**, each ascending or descending via the arrow chip.
@@ -21,6 +21,8 @@ A searchable, endlessly scrolling list of TUF levels. Each card shows the level'
 ### Downloading and playing
 
 The button on each card walks through the whole flow: **Download** fetches and unpacks the level, then turns into **Load**, which opens the chart directly in the editor — no manual file handling. If an archive contains several playable charts, a chooser lists them so you can pick.
+
+Some cards are the game's own built-in levels rather than downloads. These show **Play**, which opens the real in-game level directly, or **Buy DLC** — opening the store page — when the chart belongs to DLC you don't own.
 
 !!! note
     Downloads come only from TUF's own servers over HTTPS, and archives are checked during extraction — unsafe entries are rejected. Downloaded levels are cached, so loading a level again is instant.
@@ -49,8 +51,9 @@ Community level packs, in their own sub-tab.
 
 ## Settings
 
-Controls for where your downloaded levels live. The page shows the folder currently in use at the top, under **Level Library**.
+Controls for the browser's appearance and where your downloaded levels live. The page shows the folder currently in use at the top, under **Level Library**.
 
+- **Level Previews** — show the blurred thumbnail behind each level and pack card, taken from the level's YouTube video (a pack falls back to its own icon). On by default; turn it off to skip the thumbnail downloads entirely.
 - **Open Levels Folder** — opens the library actually in use in your file browser, which isn't the default one once you've moved it.
 - **Change Levels Folder** — pick an empty folder to keep levels in, on a roomier drive for instance. Levels you already downloaded are moved there for you, with progress shown on the page.
 - **Use the Default Folder** — moves everything back into Quartz's own folder inside the mod directory.

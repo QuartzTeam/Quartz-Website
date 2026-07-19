@@ -12,3 +12,4 @@ Open the Quartz menu in-game and pick **Overlay → Progress Bar** from the side
 - **Background Color** and **Outline Color** / **Outline Thickness** for the rest of the bar.
 - **Corner Rounding**, **Height**, **Width**, and **Top Offset** for the bar's shape and placement.
 - **Pre-fill to Start Position** — when a run starts mid-chart (from a checkpoint, or play-testing in the editor), the bar starts already filled to that point instead of empty.
+- **Smooth Fill (Map Time)** — advance the bar by the chart's elapsed time instead of tiles completed, so the fill moves continuously every frame rather than stepping forward on each tile.

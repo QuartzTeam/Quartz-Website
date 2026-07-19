@@ -19,7 +19,7 @@ All under the **Overlay** category in the sidebar. Its **General** page holds th
 
 | Feature | What it does |
 |---------|--------------|
-| [Editor](editor.md) | Editor readouts (total angle, beats, count, duration), horizontal properties, and BGA mod. |
+| [Editor](editor.md) | Editor readouts (total angle, beats, count, duration), BGA mod, and tile flip & rotate. |
 
 ## Visual & Gameplay tweaks
 

@@ -1,0 +1,35 @@
+docs/features/tuf.md
+  s_b6b5f4af118b3f::t_41db04fce4556d 11
+  s_b6b5f4af118b3f::t_1580770a2d4241 25-26
+  s_b6b5f4af118b3f::t_a5bb973b015dee 54,56
+docs/features/index.md
+  s_b6b5f4af118b3f::t_dd18a4e92b8714 22
+docs/features/progress-bar.md
+  s_b6b5f4af118b3f::t_0b939c43274961 15
+docs/features/editor.md
+  s_b6b5f4af118b3f::t_c29b973b0ee5ea 3
+  s_b6b5f4af118b3f::t_36a8fa47789dd8 15-18
+docs/features/effect-remover.md
+  s_b6b5f4af118b3f::t_8cdee16ba68395 11
+docs/features/key-viewer.md
+  s_b6b5f4af118b3f::t_9e0632b6eb2b69 16
+  s_b6b5f4af118b3f::t_190d161e920241 40
+docs/features/key-limiter.md
+  s_b6b5f4af118b3f::t_97a108b00fb867 15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "84b163ff25bacf93acd8808ffd71e9952ef3be72",
+  "prompts": {},
+  "sessions": {
+    "s_b6b5f4af118b3f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8ff3675f-f5d4-43f7-83f0-ed910cd48c42",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

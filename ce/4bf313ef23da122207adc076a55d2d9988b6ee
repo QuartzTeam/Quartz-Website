@@ -1,0 +1,35 @@
+docs/features/panels.md
+  s_a9c1ba50eef6d7::t_907b035ca4a260 11
+  s_a9c1ba50eef6d7::t_8e680e8ffb97d3 15
+docs/features/tweaks.md
+  s_a9c1ba50eef6d7::t_e86e20fc9f2e92 3
+docs/features/key-viewer.md
+  s_a9c1ba50eef6d7::t_7c2e7fee36a5d2 19
+  s_a9c1ba50eef6d7::t_a9a37c7bb73b75 32,34-41
+  s_a9c1ba50eef6d7::t_be8b72c15f0a87 3
+docs/features/calibration.md
+  s_a9c1ba50eef6d7::t_16e16376469f5e 7,11
+docs/features/index.md
+  s_a9c1ba50eef6d7::t_2be2a6591e5522 39
+docs/install.md
+  s_a9c1ba50eef6d7::t_25e3405a0d1455 37-39
+docs/index.md
+  s_a9c1ba50eef6d7::t_ac272dddbeed8c 37-42
+  s_a9c1ba50eef6d7::t_f4ca9048f5b374 13-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "ce4bf313ef23da122207adc076a55d2d9988b6ee",
+  "prompts": {},
+  "sessions": {
+    "s_a9c1ba50eef6d7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b4ace9ac-b0a6-47cf-bf45-8230428d814f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

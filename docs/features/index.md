@@ -8,10 +8,10 @@ All under the **Overlay** category in the sidebar. Its **General** page holds th
 
 | Feature | What it does |
 |---------|--------------|
-| [Key Viewer](key-viewer.md) | Free-form layout editor for an on-screen key display — press counters, KPS, rain effects, and DM Note-compatible presets and CSS. |
+| [Key Viewer](key-viewer.md) | Free-form layout editor for an on-screen key display — press counters, KPS, rain effects, pattern hiding, and DM Note-compatible presets and CSS. |
 | [Combo](combo.md) | Combo counter overlay for gameplay. |
 | [Judgement](judgement.md) | Hit judgement count display. |
-| [Progress Bar](progress-bar.md) | Level progress overlay. |
+| [Progress Bar](progress-bar.md) | Level progress overlay, as a floating bar, a segmented bar, or a thin line along the screen edge. |
 | [Song Title](song-title.md) | Shows the current song's artist and title in-game. |
 | [Panels](panels.md) | Build your own stat overlays from any tracked stat. |
 

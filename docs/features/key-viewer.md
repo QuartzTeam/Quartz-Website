@@ -34,6 +34,16 @@ The editor is a zoomable canvas with the live key viewer on it:
 - **Independent Key Input** — read presses as keyboard events carrying the moment they happened, rather than checking the keyboard once per frame. A tap too quick to fall inside a frame still registers, and a note keeps the length you actually held it for. Quartz falls back to the per-frame reading on its own whenever the key hook isn't running or the game window isn't focused, so nothing stops working if it can't be used.
 - **Minimum Lit Time** — hold a key lit for at least this long, so a very short tap is still visible instead of flashing by. Set it to 0 to light keys for exactly as long as they're held.
 
+## Hiding your tapping pattern
+
+**This Tabub Is Mine** stops anyone watching from reading your tapping pattern off the key viewer. Past a point in the level, the note rain stops and a picture drops over the boxes, covering the part of a run where the pattern is worth copying.
+
+- **Hide Tabub From** — how far into the level the picture takes over. It fades in over the second leading up to that point and fades back out over the level's last second.
+- **Custom Tabub Image** — pick your own picture. **Use Built-in Image** goes back to the one that ships with the mod.
+- **Tabub Image Size** scales the picture, and you drag it into place in Reorganize mode like any other overlay. **Reset Tabub Position** puts it back.
+
+Presses keep counting underneath the whole time, so nothing is lost from your counters, and everything returns to normal on the next attempt.
+
 ## Saving and sharing layouts
 
 - **Import** — load a Quartz `.qkv` or a DM Note preset JSON straight into a layout tab, including any custom CSS the preset embeds. **Open Presets Folder** jumps to where they live.

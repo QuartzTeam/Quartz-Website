@@ -1,0 +1,25 @@
+docs/features/progress-bar.md
+  s_6d144e1e6fccca::t_fc6e39588c760b 3,9-22
+  s_6d144e1e6fccca::t_c8c3b2109cfbf2 23
+docs/features/index.md
+  s_6d144e1e6fccca::t_84e730a4881eae 11
+  s_6d144e1e6fccca::t_df46ef2be15463 14
+docs/features/key-viewer.md
+  s_6d144e1e6fccca::t_d8f8de90cd35d8 37-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "4cc12d595427b74ef46f1205ef7fde7690372c6f",
+  "prompts": {},
+  "sessions": {
+    "s_6d144e1e6fccca": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0c82240e-cee3-460e-a838-c633cd223c11",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

@@ -4,11 +4,11 @@ Tools for dialing in your input offset in A Dance of Fire and Ice (ADOFAI), port
 
 ## Where to find it
 
-Open the Quartz menu in-game and pick **Gameplay → Calibration** from the sidebar.
+Open the Quartz menu in-game and pick **Calibration** from the sidebar.
 
 ## Highlights
 
-- **Show Popup on Death** — when you die, a prompt asks whether to change your input offset to the value suggested by that run's average timing. One click applies it, so you can calibrate against real levels instead of the calibration screen.
+- **Show Popup on Death** — when you die, a prompt asks whether to change your input offset to the value suggested by that run's average timing. One click applies it, so you can calibrate against real levels instead of the calibration screen. Drag it wherever you like with **Reorganize** — a stand-in appears while reorganizing, since the real prompt only shows up on death — and **Reset Popup Position** puts it back in the middle.
 - **Detailed Calibration Display** — the game's own calibration screen also shows the average, maximum, and minimum of your taps, so you can see how consistent you are, not just the final number.
 - **Decimal (Sub-Millisecond) Offset** — lets the input offset hold decimals instead of whole milliseconds. In the game's pause-menu offset control, hold ++ctrl++ for .1 ms steps and ++ctrl+shift++ for .01 ms steps.
 

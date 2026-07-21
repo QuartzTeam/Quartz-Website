@@ -36,7 +36,7 @@ All under the **Overlay** category in the sidebar. Its **General** page holds th
 
 ## Input & Restrictions
 
-All under the **Gameplay** category in the sidebar.
+Under the **Gameplay** category in the sidebar, except Calibration, which is its own top-level page.
 
 | Feature | What it does |
 |---------|--------------|

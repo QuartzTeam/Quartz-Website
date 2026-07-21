@@ -10,6 +10,10 @@ Quartz is an all-in-one mod for **A Dance of Fire and Ice**. It bundles gameplay
 
 </div>
 
+## Game versions
+
+One Quartz build runs on both the current **A Dance of Fire and Ice** 3.x releases and the older **2.9.8**. There is no separate download — install the same zip either way, and Quartz works out which version it is running on at launch. A handful of things the older version simply doesn't have (its results screen and planet system differ) switch themselves off there; everything else behaves the same.
+
 ## Choosing a loader
 
 Every release ships two zips:
@@ -29,6 +33,12 @@ Both packages expose the same in-game Quartz menu and settings once loaded.
 Menu-wide options live on the **Settings** page, separate from the individual feature tabs.
 
 - **Block game inputs while menu is open** — on by default. While the Quartz menu is up, the game underneath ignores input entirely, so you can't accidentally restart, pause, or land hits on the level behind the panel. Autoplay is exempt, so a run left playing behind the menu keeps going.
+
+### Per-setting hotkeys
+
+Any toggle in the menu can have a key of its own. Right-click its row, press the key you want, and it's bound; press ++esc++ or ++backspace++ while binding to unbind it again. The current binding shows at the right of the row.
+
+A bound toggle can be flipped without opening the menu at all — including mid-run — so things you switch often, like an overlay or a restriction, are one keypress away.
 
 ## Language
 

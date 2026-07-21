@@ -1,6 +1,6 @@
 # Tweaks
 
-A grab-bag of small gameplay, menu, and results-screen adjustments that don't fit under a bigger feature.
+A grab-bag of small gameplay and menu adjustments that don't fit under a bigger feature.
 
 ## Where to find it
 
@@ -11,7 +11,6 @@ Most of these live on the **Tweaks** tab. A few — the ones that change how pla
 - **Disable Auto Pause** — while auto-play is on, the game normally pauses itself (e.g. when the window loses focus); this blocks those automatic pauses. Pausing manually still works.
 - **Block Scroll While Playing** — ignores mouse-wheel input while a level is playing, so an accidental scroll can't affect the run.
 - **Main Menu** — **Disable Menu Music** mutes the title/island-select theme; **Custom Menu BPM** sets the menu rabbit's two speeds instead of the default 1x/2x (re-open the menu to apply).
-- **Detailed Results** — hide individual rows (Accuracy, X-Accuracy, Checkpoints Used, Maximum Used Keys) from the post-level detailed results screen.
 
 ## Visual Tweaks (on the Visuals tab)
 

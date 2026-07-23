@@ -16,6 +16,7 @@ A searchable, endlessly scrolling list of TUF levels. Each card shows the level'
 - **Quantum** — an opt-in second range bar for quantum difficulties. Turn it off and it folds away entirely.
 - **Special** — a flyout with **Unranked**, **Censored**, and **Impossible** checkboxes for including special-difficulty levels.
 - **Installed** — switches the list to your own library; see [Your library](#your-library) below.
+- **Grid View** — lays the levels out as a grid of cards instead of one long column. The number of columns follows the window width as you resize, and the choice sticks between sessions.
 - Scrolling near the bottom loads the next page automatically.
 
 ### Downloading and playing

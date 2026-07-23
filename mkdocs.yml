@@ -103,3 +103,4 @@ nav:
           - Auto Deafen: features/auto-deafen.md
       - TUF: features/tuf.md
       - Addons: features/addons.md
+      - Help: features/help.md

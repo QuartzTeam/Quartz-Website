@@ -65,3 +65,9 @@ Under the **Gameplay** category in the sidebar, except Calibration, which is its
 | Feature | What it does |
 |---------|--------------|
 | [Addons](addons.md) | Load community-made addons that add their own settings pages, stat panels, and text tags. |
+
+## Help
+
+| Feature | What it does |
+|---------|--------------|
+| [Help](help.md) | A built-in FAQ you can rewrite — the questions live in a file you can edit and reload in-game. |

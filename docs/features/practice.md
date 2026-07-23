@@ -16,7 +16,7 @@ Open the Quartz menu in-game and pick **Gameplay → Practice Difficulty** from 
 - **Applies Difficulty** and **Applies Pitch** — a key can do both, or just one. Turn **Applies Pitch** off for a key that only switches difficulty, and vice versa.
 - **Remove** — deletes that binding.
 
-The difficulty switches the moment you press the key. The pitch is written into the level's own **Pitch** setting exactly once, as if you had typed it into the level settings yourself, so the game picks it up on your next run — and you stay free to edit that field afterwards without Quartz overwriting it.
+Both land between attempts rather than in the middle of one. A difficulty you press mid-run is held until that attempt ends and applied before the next one starts, so the hit windows never change underneath you — press a key for the difficulty you're already on and the queued change is dropped instead. The pitch is written into the level's own **Pitch** setting exactly once, as if you had typed it into the level settings yourself, so the game picks it up on your next run — and you stay free to edit that field afterwards without Quartz overwriting it.
 
 !!! note
     Pitch applies to levels that have a Pitch setting to write to — a custom level you're playing or editing. The difficulty side works anywhere.
@@ -25,7 +25,7 @@ The difficulty switches the moment you press the key. The pitch is written into 
 
 An on-screen readout of what you're actually playing on.
 
-- **Show Difficulty Readout** — draws the difficulty the game is really using, which the in-game selector doesn't always keep up to date.
+- **Show Difficulty Readout** — draws the difficulty the game is really using, which the in-game selector doesn't always keep up to date. A change still waiting for the next attempt shows as an arrow, so `Strict → Lenient` means Lenient starts when this run ends.
 - **Show Pitch** — puts the level's current pitch next to it.
 - **Only While Playing** — hide the readout outside of a run.
 - **Font Size** and **Text Color** for its look.

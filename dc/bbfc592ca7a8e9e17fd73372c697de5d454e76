@@ -1,0 +1,32 @@
+docs/features/practice.md
+  s_4366312d62e975::t_490f9ac173c891 1-35
+mkdocs.yml
+  s_4366312d62e975::t_5b30c7aa0f6ed0 100
+docs/features/ui-hider.md
+  s_4366312d62e975::t_5db57ae4a56dc5 16
+docs/features/progress-bar.md
+  s_4366312d62e975::t_88b6661cd52f02 3
+  s_4366312d62e975::t_082635592cee16 18
+docs/features/tuf.md
+  s_4366312d62e975::t_909d9f68402b62 39-40
+  s_4366312d62e975::t_591cabc7eab7b4 43
+docs/features/index.md
+  s_4366312d62e975::t_4eecad12f2dede 47
+  s_4366312d62e975::t_779444831295dd 14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "dcbbfc592ca7a8e9e17fd73372c697de5d454e76",
+  "prompts": {},
+  "sessions": {
+    "s_4366312d62e975": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bf3aa4de-752f-4b1f-acda-f1bdc04460ba",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}

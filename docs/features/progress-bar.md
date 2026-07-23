@@ -1,6 +1,6 @@
 # Progress Bar
 
-A bar showing how far into the level you are, in one of three shapes, with a customizable fill, outline, and corner rounding.
+A bar showing how far into the level you are, in one of two shapes, with a customizable fill, outline, and corner rounding.
 
 ## Where to find it
 
@@ -13,13 +13,9 @@ Open the Quartz menu in-game and pick **Overlay → Progress Bar** from the side
 | Style | What it looks like |
 |-------|--------------------|
 | **Modern** | A floating rounded bar, placed by **Width**, **Height**, **Top Offset**, and **Corner Rounding**. |
-| **Bar** | The same bar split into discrete lit segments, sized by **Segment Count** and the **Segment Gap** between them. |
 | **Line** | A thin strip stretched edge to edge across the screen, with its own **Line Thickness** and a **Screen Edge** of **Top** or **Bottom**. |
 
-Colors, the gradient, and the outline carry across all three. Under **Bar**, **Background Color** becomes **Unlit Segment Color** — the color of the segments still ahead of you.
-
-!!! tip "Gradients on a segmented bar"
-    With **Fill Color Gradient** on, **Bar** colors each segment by its own position along the bar rather than recoloring the whole bar as you advance, so the finished gradient is visible across the segments at once.
+Colors, the gradient, and the outline carry across both.
 
 ## Highlights
 

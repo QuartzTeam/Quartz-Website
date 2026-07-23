@@ -11,7 +11,7 @@ All under the **Overlay** category in the sidebar. Its **General** page holds th
 | [Key Viewer](key-viewer.md) | Free-form layout editor for an on-screen key display — press counters, KPS, rain effects, pattern hiding, and DM Note-compatible presets and CSS. |
 | [Combo](combo.md) | Combo counter overlay for gameplay. |
 | [Judgement](judgement.md) | Hit judgement count display. |
-| [Progress Bar](progress-bar.md) | Level progress overlay, as a floating bar, a segmented bar, or a thin line along the screen edge. |
+| [Progress Bar](progress-bar.md) | Level progress overlay, as a floating bar or a thin line along the screen edge. |
 | [Song Title](song-title.md) | Shows the current song's artist and title in-game. |
 | [Panels](panels.md) | Build your own stat overlays from any tracked stat. |
 
@@ -44,6 +44,7 @@ Under the **Gameplay** category in the sidebar, except Calibration, which is its
 | [Restriction](restriction.md) | Fail a run early on a judgement rule or a miss/overload cap. |
 | [Chatter Blocker](chatter-blocker.md) | Drop rapid repeat presses from a chattering key. |
 | [Calibration](calibration.md) | Tune your input offset from real play — on-death popup, decimal offset, detailed readout, and per-map timing history. |
+| [Practice Difficulty](practice.md) | Bind keys to a difficulty and a pitch, and switch between them without leaving the level. |
 
 ## Utility
 

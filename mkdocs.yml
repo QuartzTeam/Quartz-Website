@@ -97,6 +97,7 @@ nav:
           - Restriction: features/restriction.md
           - Chatter Blocker: features/chatter-blocker.md
           - Calibration: features/calibration.md
+          - Practice Difficulty: features/practice.md
       - Utility:
           - Profiles: features/profiles.md
           - Auto Deafen: features/auto-deafen.md

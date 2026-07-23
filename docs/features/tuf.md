@@ -36,9 +36,11 @@ Levels can be big — a heavily decorated one runs to hundreds of megabytes of b
 
 The **Installed** chip on the Levels page turns the list into everything you've downloaded, newest first. It reads a local index rather than the network, so it works with no connection, and search, sorting, and the difficulty filters all keep working over your own levels.
 
+When TUF can't be reached at all — no connection, or the site times out — the Levels and Packs pages say so instead of showing a bare error, and offer a one-click switch to your installed levels, with the number you have on it, next to **Retry**.
+
 - **Installed badge** — levels you already have are marked wherever they appear, including in search results and inside packs.
 - **Delete** — the trash icon removes a level from disk, so clearing out maps doesn't mean digging through folders. It takes two clicks: the first arms the button and turns it red, the second deletes. Anything you remove can be downloaded again later.
-- Levels downloaded before Quartz kept this index still show up. With no stored details they show just their ID (`Level #5350`) until they turn up in a search again, which fills in the song and artist.
+- Levels downloaded before Quartz kept this index still show up, and they fill their own details in: Quartz reads the song, artist, and creator out of the chart file itself, and asks TUF about anything still missing. Creator names come from the level's credits, so charters credited there are named rather than left blank.
 
 ## Packs
 

@@ -1,0 +1,28 @@
+docs/features/index.md
+  s_c946fbec1e2d3a::t_1ffe04b05b039c 68-73
+mkdocs.yml
+  s_c946fbec1e2d3a::t_1a895cbf274d10 106
+docs/features/tuf.md
+  s_c946fbec1e2d3a::t_b83fa7a4bbdcb4 19
+docs/features/help.md
+  s_c946fbec1e2d3a::t_26eed38ccaa1ba 1-39
+docs/features/practice.md
+  s_c946fbec1e2d3a::t_06c1d1f9864ff7 28
+  s_c946fbec1e2d3a::t_d0f709b28b7e2a 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "3800184dfb219a6e0cd6a438d8541327e28e2252",
+  "prompts": {},
+  "sessions": {
+    "s_c946fbec1e2d3a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "059ed993-d3e5-43a3-9504-59518050ddea",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
